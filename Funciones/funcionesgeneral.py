@@ -30,14 +30,16 @@ class AppFunctions:
         self.searchTooltip = QCustomTipOverlay(
             title = "Buscando Resultados.",
             description = "Buscando...",
-            icon=self.ui.theme-icons.PATH_RESOURCES+"feather/search.png",
+            icon="Qss/icons/ff0000/feather/search.png",
+            image="Qss/icons/ff0000/feather/activity.png",
             isClosable=True,
             target=self.ui.busquedaTexto,
-            parent=self.ui,
+            parent=self.ui.centralContenedor,
+            aniType="pull-up",
             deleteOnClose=True,
             duration=-1, #-1 Para evitar el autocierre
             tailPosition="top-center",
-            closeIcon=self.ui.theme-icons.PATH_RESOURCES+"material_design/close.png",
+            closeIcon="Qss/icons/ff0000/material_design/close.png",
             toolFlag = True
         )
     
@@ -46,7 +48,7 @@ class AppFunctions:
             self.searchTooltip.show()
         except:
             self.createSearchTipOverlay()
-            self.searchTooltip()
+            self.searchTooltip.show()
 
     def initializeAppTheme(self):
         settings = QSettings()
