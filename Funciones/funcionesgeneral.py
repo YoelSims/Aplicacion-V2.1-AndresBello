@@ -24,21 +24,20 @@ class AppFunctions:
         self.initializeAppTheme()
         #Aplicar Estilo, otro metodo
         #self.applyStyles()
-        self.ui.busquedaBoton.clicked.connect(self.showSearchResults)
     
     #Crear cuadro de resultados busqueda
     def createSearchTipOverlay(self):
         self.searchTooltip = QCustomTipOverlay(
             title = "Buscando Resultados.",
             description = "Buscando...",
-            icon=self.ui.PATH_RESOURCES+"feather/search.png",
+            icon=self.ui.theme-icons.PATH_RESOURCES+"feather/search.png",
             isClosable=True,
             target=self.ui.busquedaTexto,
             parent=self.ui,
             deleteOnClose=True,
             duration=-1, #-1 Para evitar el autocierre
             tailPosition="top-center",
-            closeIcon=self.ui.PATH_RESOURCES+"material_design/close.png",
+            closeIcon=self.ui.theme-icons.PATH_RESOURCES+"material_design/close.png",
             toolFlag = True
         )
     

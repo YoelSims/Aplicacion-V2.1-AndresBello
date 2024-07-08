@@ -53,8 +53,8 @@ class MainWindow(QMainWindow):
         self.ui.eliminarBoton.clicked.connect(self.app_functions.delete_user)
         self.ui.editarBoton.clicked.connect(self.app_functions.update_user)
         #Boton Busqueda Evento
+        self.ui.busquedaBoton.clicked.connect(self.app_functions.showSearchResults)
         
-
         #Mostrar tablas inicialmente
         self.app_functions.display_users()
         
