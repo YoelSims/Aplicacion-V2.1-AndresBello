@@ -1645,7 +1645,8 @@ PlotWidget {
   background-color: transparent;
   background: transparent;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  color: #999999; }
 
 #centralContenedor {
   background-color: #E5E5E5; }
@@ -1656,14 +1657,27 @@ PlotWidget {
   border-bottom-right-radius: 10px;
   border-left: 5px solid transparent; }
 
-QPushButton {
+#inicioBoton, #estudianteBoton, #profesorBoton, #notaBoton,
+#materiaBoton, #gradosBoton, #documentoBoton, #ayudaBoton,
+#ajustesBoton, #acercaDeBoton, #cerrarSesionBoton {
   text-align: left;
-  padding: 5px, 10px 3px;
-  background-color: transparent;
-  background: transparent; }
+  padding: 5px, 10px 3px; }
 
 #menuBoton {
   text-align: center; }
+
+QPushButton {
+  background-color: transparent;
+  background: transparent; }
+
+QPushButton:hover {
+  color: #FF3333; }
+
+QPushButton:pressed {
+  color: #ff0000; }
+
+#cerrarMenuDerecho {
+  text-align: right; }
 
 #cerrarSesionBoton {
   padding: 5px, 10px 8px; }

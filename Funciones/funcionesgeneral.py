@@ -7,7 +7,7 @@ from sqlalchemy import *
 from Custom_Widgets import *
 from Custom_Widgets.QAppSettings import QAppSettings
 from Custom_Widgets.QCustomTipOverlay import QCustomTipOverlay
-from Custom_Widgets.QCustomLoadingIndicators import QCustom3CirclesLoader, QCustomArcLoader, QCustomPerlinLoader
+from Custom_Widgets.QCustomLoadingIndicators import QCustom3CirclesLoader, QCustomArcLoader, QCustomPerlinLoader, QCustomSpinner
 
 from PySide6.QtGui import QFont, QFontDatabase
 from PySide6.QtCore import QSettings, QSize
@@ -29,7 +29,7 @@ class AppFunctions:
     #Crear cuadro de resultados busqueda
     def createSearchTipOverlay(self):
         self.searchTooltip = QCustomTipOverlay(
-            title = "Buscando Resultados.",
+            title = "Buscando...",
             description = "Buscando...",
             icon="Qss/icons/ff0000/feather/search.png",
             image="Qss/icons/ff0000/feather/activity.png",
@@ -40,7 +40,7 @@ class AppFunctions:
             deleteOnClose=True,
             duration=-1, #-1 Para evitar el autocierre
             tailPosition="top-center",
-            closeIcon="Qss/icons/ff0000/material_design/close.png",
+            closeIcon="Qss/icons/ff0000/material_design/clear.png",
             toolFlag = True
         )
 
@@ -75,15 +75,29 @@ class AppFunctions:
             penWidth=20
         )
 
+        """circuloLoader = QCustomSpinner(
+            lineWidth=2,
+            lineColor=None,  # Use default color if None
+            direction="Clockwise",  # or "Counterclockwise"
+            animationType="Bounce"  # or "Smooth"
+        )"""
+
         self.searchTooltip.addWidget(espiralLoader)
 
 
     def showSearchResults(self):
+        buscarCampo = self.ui.busquedaTexto.text()
+        #Validar que no este vacio
+        if not buscarCampo:
+            return
         try:
             self.searchTooltip.show()
         except:
             self.createSearchTipOverlay()
             self.searchTooltip.show()
+        
+        #Actualizar descripcion de Busqueda
+        self.searchTooltip.setDescription("Mostando resultados para: "+buscarCampo)
 
     def initializeAppTheme(self):
         settings = QSettings()
