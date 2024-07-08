@@ -1,3 +1,4 @@
+import time
 from PySide6.QtWidgets import QTableWidgetItem
 from Modelos.modelo import Usuarios
 from BaseDatos.basededatos import SessionLocal
@@ -6,12 +7,12 @@ from sqlalchemy import *
 from Custom_Widgets import *
 from Custom_Widgets.QAppSettings import QAppSettings
 from Custom_Widgets.QCustomTipOverlay import QCustomTipOverlay
-#from Custom_Widgets.QCustomLoadingIndicators import QCustom3CirclesLoader
+from Custom_Widgets.QCustomLoadingIndicators import QCustom3CirclesLoader, QCustomArcLoader, QCustomPerlinLoader
 
 from PySide6.QtGui import QFont, QFontDatabase
-from PySide6.QtCore import QSettings
+from PySide6.QtCore import QSettings, QSize
 #from PySide6.QtCore import QSettings, QTimer
-#from PySide6.QtGui import QColor, QFont, QFontDatabase
+from PySide6.QtGui import QColor, QFont, QFontDatabase
 #from PySide6.QtWidgets import QGraphicsDropShadowEffect
 #from PySide6.QtWidgets import QApplication, QMainWindow, QWidget
 
@@ -42,7 +43,41 @@ class AppFunctions:
             closeIcon="Qss/icons/ff0000/material_design/close.png",
             toolFlag = True
         )
-    
+
+        #Loader 3 Tipos
+        """gelatinaLoader = QCustomPerlinLoader(
+            parent=self.searchTooltip,
+            size=QSize(600, 600),
+            message="Cargando...",
+            color=QColor("white"),
+            fontFamily="Ebrima",
+            fontSize=30,
+            rayon=200,
+            duration=60 * 1000,
+            noiseOctaves=0.8,
+            noiseSeed=int(time.time()),
+            backgroundColor=QColor("transparent"),
+            circleColor1=QColor("#ff2e63"),
+            circleColor2=QColor("#082e63"),
+            circleColor3=QColor("#ff0000")
+        )"""
+
+        """figurasLoader = QCustom3CirclesLoader(
+            parent=self.searchTooltip,
+            color=QColor("#ff0000"),
+            penWidth=20,
+            animationDuration=400
+        )"""
+
+        espiralLoader = QCustomArcLoader(
+            parent=self.searchTooltip,
+            color=QColor("#ff0000"),
+            penWidth=20
+        )
+
+        self.searchTooltip.addWidget(espiralLoader)
+
+
     def showSearchResults(self):
         try:
             self.searchTooltip.show()
