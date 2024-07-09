@@ -1677,7 +1677,7 @@ QPushButton:pressed {
   color: #ff0000; }
 
 #cerrarMenuDerecho {
-  text-align: right; }
+  text-align: center; }
 
 #cerrarSesionBoton {
   padding: 5px, 10px 8px; }
