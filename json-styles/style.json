@@ -1,4 +1,7 @@
-{
+{	"QtBinding": "PySide6",	
+	"ShowLogs": true,
+	"LiveCompileQss": true,
+	"CheckForMissingicons": false,
 	"QMainWindow":[
 		{
 			"tittle":"Sistema de Gestion Estudiantil AndresBello",
@@ -340,5 +343,5 @@
 				"NotActive": "transparent;"
 			}]
 		}
-	]			
+	]	
 }

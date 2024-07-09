@@ -25,6 +25,33 @@ class AppFunctions:
         self.initializeAppTheme()
         #Aplicar Estilo, otro metodo
         #self.applyStyles()
+        self.conexionBotones()
+    
+    def conexionBotones(self):
+        #Botones Funciones Principales
+        self.ui.actualizarBoton.clicked.connect(self.add_user)
+        self.ui.eliminarBoton.clicked.connect(self.delete_user)
+        self.ui.editarBoton.clicked.connect(self.update_user)
+        #Boton Busqueda Evento
+        self.ui.busquedaBoton.clicked.connect(self.showSearchResults)
+        ## Expandir Menu Central Botones
+        self.ui.ajustesBoton.clicked.connect(lambda: self.ui.menuCentroContenedor.expandMenu())
+        self.ui.acercaDeBoton.clicked.connect(lambda: self.ui.menuCentroContenedor.expandMenu())
+        self.ui.ayudaBoton.clicked.connect(lambda: self.ui.menuCentroContenedor.expandMenu())
+        ##############
+        ## Expandir Menu Derecho Botones
+        self.ui.masBoton.clicked.connect(lambda: self.ui.menuContenedorDerecho.expandMenu())
+        self.ui.perfilBoton.clicked.connect(lambda: self.ui.menuContenedorDerecho.expandMenu())
+        self.ui.botonMenuEliminar.clicked.connect(lambda: self.ui.menuContenedorDerecho.expandMenu())
+        #################
+        ### Cerrar Menu Central Botones
+        self.ui.cerrarMenuCentro.clicked.connect(lambda: self.ui.menuCentroContenedor.collapseMenu())
+        #################
+        ### Cerrar Menu Derecho
+        self.ui.cerrarMenuDerecho.clicked.connect(lambda: self.ui.menuContenedorDerecho.collapseMenu())
+        #################
+        ### Cerrar Notificacion
+        self.ui.cerrarNotificacion.clicked.connect(lambda: self.ui.emergenteNotificacionContenedor.collapseMenu())
     
     #Crear cuadro de resultados busqueda
     def createSearchTipOverlay(self):
