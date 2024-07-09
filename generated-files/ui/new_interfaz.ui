@@ -123,7 +123,7 @@
                 <string />
                </property>
                <property name="icon">
-                <iconset resource="../Qss/icons/_icons.qrc">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                  <normaloff>:/font_awesome_solid/icons/font_awesome/solid/align-justify.png</normaloff>:/font_awesome_solid/icons/font_awesome/solid/align-justify.png</iconset>
                </property>
                <property name="iconSize">
@@ -191,7 +191,7 @@
                 <string>INICIO</string>
                </property>
                <property name="icon">
-                <iconset resource="../Qss/icons/_icons.qrc">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                  <normaloff>:/feather/icons/feather/home.png</normaloff>:/feather/icons/feather/home.png</iconset>
                </property>
                <property name="iconSize">
@@ -214,7 +214,7 @@
                 <string>ESTUDIANTES</string>
                </property>
                <property name="icon">
-                <iconset resource="../Qss/icons/_icons.qrc">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                  <normaloff>:/font_awesome_solid/icons/font_awesome/solid/user-large.png</normaloff>:/font_awesome_solid/icons/font_awesome/solid/user-large.png</iconset>
                </property>
                <property name="iconSize">
@@ -234,7 +234,7 @@
                 <string>MATERIAS</string>
                </property>
                <property name="icon">
-                <iconset resource="../Qss/icons/_icons.qrc">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                  <normaloff>:/feather/icons/feather/layers.png</normaloff>:/feather/icons/feather/layers.png</iconset>
                </property>
                <property name="iconSize">
@@ -254,7 +254,7 @@
                 <string>PROFESORES</string>
                </property>
                <property name="icon">
-                <iconset resource="../Qss/icons/_icons.qrc">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                  <normaloff>:/font_awesome_solid/icons/font_awesome/solid/user-group.png</normaloff>:/font_awesome_solid/icons/font_awesome/solid/user-group.png</iconset>
                </property>
                <property name="iconSize">
@@ -274,7 +274,7 @@
                 <string>NOTAS</string>
                </property>
                <property name="icon">
-                <iconset resource="../Qss/icons/_icons.qrc">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                  <normaloff>:/feather/icons/feather/clipboard.png</normaloff>:/feather/icons/feather/clipboard.png</iconset>
                </property>
                <property name="iconSize">
@@ -294,7 +294,7 @@
                 <string>DOCUMENTOS</string>
                </property>
                <property name="icon">
-                <iconset resource="../Qss/icons/_icons.qrc">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                  <normaloff>:/font_awesome_solid/icons/font_awesome/solid/print.png</normaloff>:/font_awesome_solid/icons/font_awesome/solid/print.png</iconset>
                </property>
                <property name="iconSize">
@@ -351,7 +351,7 @@
                 <string>GRADOS</string>
                </property>
                <property name="icon">
-                <iconset resource="../Qss/icons/_icons.qrc">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                  <normaloff>:/font_awesome_solid/icons/font_awesome/solid/graduation-cap.png</normaloff>:/font_awesome_solid/icons/font_awesome/solid/graduation-cap.png</iconset>
                </property>
                <property name="iconSize">
@@ -371,7 +371,7 @@
                 <string>AJUSTES</string>
                </property>
                <property name="icon">
-                <iconset resource="../Qss/icons/_icons.qrc">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                  <normaloff>:/feather/icons/feather/settings.png</normaloff>:/feather/icons/feather/settings.png</iconset>
                </property>
                <property name="iconSize">
@@ -391,7 +391,7 @@
                 <string>ACERCA DE</string>
                </property>
                <property name="icon">
-                <iconset resource="../Qss/icons/_icons.qrc">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                  <normaloff>:/feather/icons/feather/alert-circle.png</normaloff>:/feather/icons/feather/alert-circle.png</iconset>
                </property>
                <property name="iconSize">
@@ -411,7 +411,7 @@
                 <string>AYUDA</string>
                </property>
                <property name="icon">
-                <iconset resource="../Qss/icons/_icons.qrc">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                  <normaloff>:/material_design/icons/material_design/help_outline.png</normaloff>:/material_design/icons/material_design/help_outline.png</iconset>
                </property>
                <property name="iconSize">
@@ -455,7 +455,7 @@
                 <string>CERRAR SESION</string>
                </property>
                <property name="icon">
-                <iconset resource="../Qss/icons/_icons.qrc">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                  <normaloff>:/font_awesome_solid/icons/font_awesome/solid/lock.png</normaloff>:/font_awesome_solid/icons/font_awesome/solid/lock.png</iconset>
                </property>
                <property name="iconSize">
@@ -503,19 +503,19 @@
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_8">
           <property name="spacing">
-           <number>0</number>
+           <number>10</number>
           </property>
           <property name="leftMargin">
-           <number>0</number>
+           <number>10</number>
           </property>
           <property name="topMargin">
-           <number>0</number>
+           <number>10</number>
           </property>
           <property name="rightMargin">
-           <number>0</number>
+           <number>10</number>
           </property>
           <property name="bottomMargin">
-           <number>0</number>
+           <number>10</number>
           </property>
           <item>
            <widget class="QFrame" name="frame_5">
@@ -539,7 +539,7 @@
                 <string />
                </property>
                <property name="icon">
-                <iconset resource="../Qss/icons/_icons.qrc">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                  <normaloff>:/font_awesome_regular/icons/font_awesome/regular/circle-xmark.png</normaloff>:/font_awesome_regular/icons/font_awesome/regular/circle-xmark.png</iconset>
                </property>
                <property name="iconSize">
@@ -718,7 +718,7 @@
                 <string />
                </property>
                <property name="pixmap">
-                <pixmap resource="../Qss/icons/_icons.qrc">:/Imagen/Imagenes/Logo/2.png</pixmap>
+                <pixmap resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">:/Imagen/Imagenes/Logo/2.png</pixmap>
                </property>
                <property name="scaledContents">
                 <bool>true</bool>
@@ -745,7 +745,7 @@
                 <string />
                </property>
                <property name="icon">
-                <iconset resource="../Qss/icons/_icons.qrc">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                  <normaloff>:/font_awesome_regular/icons/font_awesome/regular/bell.png</normaloff>:/font_awesome_regular/icons/font_awesome/regular/bell.png</iconset>
                </property>
                <property name="iconSize">
@@ -756,27 +756,27 @@
                </property>
               </widget>
              </item>
+             <item>
+              <widget class="QPushButton" name="masBoton">
+               <property name="toolTip">
+                <string>Mas</string>
+               </property>
+               <property name="text">
+                <string />
+               </property>
+               <property name="icon">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
+                 <normaloff>:/feather/icons/feather/more-horizontal.png</normaloff>:/feather/icons/feather/more-horizontal.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>24</width>
+                 <height>24</height>
+                </size>
+               </property>
+              </widget>
+             </item>
             </layout>
-           </widget>
-          </item>
-          <item>
-           <widget class="QPushButton" name="masBoton">
-            <property name="toolTip">
-             <string>Mas</string>
-            </property>
-            <property name="text">
-             <string />
-            </property>
-            <property name="icon">
-             <iconset resource="../Qss/icons/_icons.qrc">
-              <normaloff>:/feather/icons/feather/more-horizontal.png</normaloff>:/feather/icons/feather/more-horizontal.png</iconset>
-            </property>
-            <property name="iconSize">
-             <size>
-              <width>24</width>
-              <height>24</height>
-             </size>
-            </property>
            </widget>
           </item>
           <item>
@@ -791,26 +791,6 @@
              </size>
             </property>
            </spacer>
-          </item>
-          <item>
-           <widget class="QPushButton" name="perfilBoton">
-            <property name="toolTip">
-             <string>Perfil</string>
-            </property>
-            <property name="text">
-             <string />
-            </property>
-            <property name="icon">
-             <iconset resource="../Qss/icons/_icons.qrc">
-              <normaloff>:/font_awesome_regular/icons/font_awesome/regular/circle-user.png</normaloff>:/font_awesome_regular/icons/font_awesome/regular/circle-user.png</iconset>
-            </property>
-            <property name="iconSize">
-             <size>
-              <width>24</width>
-              <height>24</height>
-             </size>
-            </property>
-           </widget>
           </item>
           <item alignment="Qt::AlignVCenter">
            <widget class="QFrame" name="frame_15">
@@ -828,12 +808,32 @@
             </property>
             <layout class="QHBoxLayout" name="horizontalLayout_13">
              <item>
+              <widget class="QPushButton" name="perfilBoton">
+               <property name="toolTip">
+                <string>Perfil</string>
+               </property>
+               <property name="text">
+                <string />
+               </property>
+               <property name="icon">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
+                 <normaloff>:/font_awesome_regular/icons/font_awesome/regular/circle-user.png</normaloff>:/font_awesome_regular/icons/font_awesome/regular/circle-user.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>24</width>
+                 <height>24</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item>
               <widget class="QPushButton" name="busquedaBoton">
                <property name="text">
                 <string />
                </property>
                <property name="icon">
-                <iconset resource="../Qss/icons/_icons.qrc">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                  <normaloff>:/feather/icons/feather/search.png</normaloff>:/feather/icons/feather/search.png</iconset>
                </property>
                <property name="iconSize">
@@ -893,7 +893,7 @@
                 <string />
                </property>
                <property name="icon">
-                <iconset resource="../Qss/icons/_icons.qrc">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                  <normaloff>:/font_awesome_regular/icons/font_awesome/regular/trash-can.png</normaloff>:/font_awesome_regular/icons/font_awesome/regular/trash-can.png</iconset>
                </property>
                <property name="iconSize">
@@ -950,7 +950,7 @@
                 <string />
                </property>
                <property name="icon">
-                <iconset resource="../Qss/icons/_icons.qrc">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                  <normaloff>:/font_awesome_solid/icons/font_awesome/solid/minus.png</normaloff>:/font_awesome_solid/icons/font_awesome/solid/minus.png</iconset>
                </property>
                <property name="iconSize">
@@ -970,7 +970,7 @@
                 <string />
                </property>
                <property name="icon">
-                <iconset resource="../Qss/icons/_icons.qrc">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                  <normaloff>:/font_awesome_regular/icons/font_awesome/regular/square.png</normaloff>:/font_awesome_regular/icons/font_awesome/regular/square.png</iconset>
                </property>
                <property name="iconSize">
@@ -990,7 +990,7 @@
                 <string />
                </property>
                <property name="icon">
-                <iconset resource="../Qss/icons/_icons.qrc">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                  <normaloff>:/font_awesome_solid/icons/font_awesome/solid/xmark.png</normaloff>:/font_awesome_solid/icons/font_awesome/solid/xmark.png</iconset>
                </property>
                <property name="iconSize">
@@ -1076,7 +1076,7 @@
                 <bool>false</bool>
                </property>
                <property name="currentIndex">
-                <number>0</number>
+                <number>6</number>
                </property>
                <widget class="QWidget" name="inicioPagina">
                 <layout class="QVBoxLayout" name="verticalLayout_18">
@@ -1527,16 +1527,19 @@
                      </property>
                     </widget>
                    </item>
-                   <item>
+                   <item alignment="Qt::AlignRight">
                     <widget class="QPushButton" name="cerrarMenuDerecho">
                      <property name="toolTip">
                       <string>Cerrar Menu</string>
+                     </property>
+                     <property name="layoutDirection">
+                      <enum>Qt::LeftToRight</enum>
                      </property>
                      <property name="text">
                       <string />
                      </property>
                      <property name="icon">
-                      <iconset resource="../Qss/icons/_icons.qrc">
+                      <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                        <normaloff>:/font_awesome_regular/icons/font_awesome/regular/circle-xmark.png</normaloff>:/font_awesome_regular/icons/font_awesome/regular/circle-xmark.png</iconset>
                      </property>
                      <property name="iconSize">
@@ -1847,7 +1850,7 @@
                        <string>ACTUALIZAR</string>
                       </property>
                       <property name="icon">
-                       <iconset resource="../Qss/icons/_icons.qrc">
+                       <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                         <normaloff>:/feather/icons/feather/check-circle.png</normaloff>:/feather/icons/feather/check-circle.png</iconset>
                       </property>
                       <property name="iconSize">
@@ -1915,7 +1918,7 @@
                        <string />
                       </property>
                       <property name="pixmap">
-                       <pixmap resource="../Qss/icons/_icons.qrc">:/feather/icons/feather/trash-2.png</pixmap>
+                       <pixmap resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">:/feather/icons/feather/trash-2.png</pixmap>
                       </property>
                       <property name="scaledContents">
                        <bool>true</bool>
@@ -2102,7 +2105,7 @@
                        <string>ELIMINAR</string>
                       </property>
                       <property name="icon">
-                       <iconset resource="../Qss/icons/_icons.qrc">
+                       <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                         <normaloff>:/feather/icons/feather/alert-triangle.png</normaloff>:/feather/icons/feather/alert-triangle.png</iconset>
                       </property>
                       <property name="iconSize">
@@ -2132,7 +2135,7 @@
                        <string>ACTUALIZAR</string>
                       </property>
                       <property name="icon">
-                       <iconset resource="../Qss/icons/_icons.qrc">
+                       <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                         <normaloff>:/feather/icons/feather/refresh-cw.png</normaloff>:/feather/icons/feather/refresh-cw.png</iconset>
                       </property>
                       <property name="iconSize">
@@ -2234,7 +2237,7 @@
                    <string />
                   </property>
                   <property name="icon">
-                   <iconset resource="../Qss/icons/_icons.qrc">
+                   <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
                     <normaloff>:/font_awesome_regular/icons/font_awesome/regular/circle-xmark.png</normaloff>:/font_awesome_regular/icons/font_awesome/regular/circle-xmark.png</iconset>
                   </property>
                   <property name="iconSize">
@@ -2312,9 +2315,18 @@
               </widget>
              </item>
              <item>
-              <widget class="QProgressBar" name="progressBar">
+              <widget class="QProgressBar" name="temaProgreso">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>10</height>
+                </size>
+               </property>
                <property name="value">
                 <number>24</number>
+               </property>
+               <property name="textVisible">
+                <bool>false</bool>
                </property>
               </widget>
              </item>

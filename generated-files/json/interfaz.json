@@ -2,113 +2,113 @@
   "QPushButton": [
     {
       "name": "menuBoton",
-      "icon": "Qss/icons/icons/font_awesome/solid/align-justify.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/solid/align-justify.png"
     },
     {
       "name": "inicioBoton",
-      "icon": "Qss/icons/icons/feather/home.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/home.png"
     },
     {
       "name": "estudianteBoton",
-      "icon": "Qss/icons/icons/font_awesome/solid/user-large.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/solid/user-large.png"
     },
     {
       "name": "materiaBoton",
-      "icon": "Qss/icons/icons/feather/layers.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/layers.png"
     },
     {
       "name": "profesorBoton",
-      "icon": "Qss/icons/icons/font_awesome/solid/user-group.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/solid/user-group.png"
     },
     {
       "name": "notaBoton",
-      "icon": "Qss/icons/icons/feather/clipboard.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/clipboard.png"
     },
     {
       "name": "documentoBoton",
-      "icon": "Qss/icons/icons/font_awesome/solid/print.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/solid/print.png"
     },
     {
       "name": "gradosBoton",
-      "icon": "Qss/icons/icons/font_awesome/solid/graduation-cap.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/solid/graduation-cap.png"
     },
     {
       "name": "ajustesBoton",
-      "icon": "Qss/icons/icons/feather/settings.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/settings.png"
     },
     {
       "name": "acercaDeBoton",
-      "icon": "Qss/icons/icons/feather/alert-circle.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/alert-circle.png"
     },
     {
       "name": "ayudaBoton",
-      "icon": "Qss/icons/icons/material_design/help_outline.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/material_design/help_outline.png"
     },
     {
       "name": "cerrarSesionBoton",
-      "icon": "Qss/icons/icons/font_awesome/solid/lock.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/solid/lock.png"
     },
     {
       "name": "cerrarMenuCentro",
-      "icon": "Qss/icons/icons/font_awesome/regular/circle-xmark.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/regular/circle-xmark.png"
     },
     {
       "name": "notificacionBoton",
-      "icon": "Qss/icons/icons/font_awesome/regular/bell.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/regular/bell.png"
     },
     {
       "name": "masBoton",
-      "icon": "Qss/icons/icons/feather/more-horizontal.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/more-horizontal.png"
     },
     {
       "name": "perfilBoton",
-      "icon": "Qss/icons/icons/font_awesome/regular/circle-user.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/regular/circle-user.png"
     },
     {
       "name": "busquedaBoton",
-      "icon": "Qss/icons/icons/feather/search.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/search.png"
     },
     {
       "name": "botonMenuEliminar",
-      "icon": "Qss/icons/icons/font_awesome/regular/trash-can.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/regular/trash-can.png"
     },
     {
       "name": "minimizarBoton",
-      "icon": "Qss/icons/icons/font_awesome/solid/minus.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/solid/minus.png"
     },
     {
       "name": "restaurarBoton",
-      "icon": "Qss/icons/icons/font_awesome/regular/square.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/regular/square.png"
     },
     {
       "name": "cerrarBoton",
-      "icon": "Qss/icons/icons/font_awesome/solid/xmark.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/solid/xmark.png"
     },
     {
       "name": "cerrarMenuDerecho",
-      "icon": "Qss/icons/icons/font_awesome/regular/circle-xmark.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/regular/circle-xmark.png"
     },
     {
       "name": "actualizarBoton",
-      "icon": "Qss/icons/icons/feather/check-circle.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/check-circle.png"
     },
     {
       "name": "eliminarBoton",
-      "icon": "Qss/icons/icons/feather/alert-triangle.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/alert-triangle.png"
     },
     {
       "name": "editarBoton",
-      "icon": "Qss/icons/icons/feather/refresh-cw.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/refresh-cw.png"
     },
     {
       "name": "cerrarNotificacion",
-      "icon": "Qss/icons/icons/font_awesome/regular/circle-xmark.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/regular/circle-xmark.png"
     }
   ],
   "QLabel": [
     {
       "name": "label_5",
-      "pixmap": "Qss/icons/Imagenes/Logo/2.png"
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/Imagenes/Logo/2.png"
     },
     {
       "name": "label_25",
@@ -116,7 +116,7 @@
     },
     {
       "name": "label_24",
-      "pixmap": "Qss/icons/icons/feather/trash-2.png"
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/trash-2.png"
     }
   ]
 }

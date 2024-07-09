@@ -236,9 +236,9 @@ class Ui_ventanaPrincipal(object):
         self.menuSubCentroContenedor.setObjectName(u"menuSubCentroContenedor")
         self.menuSubCentroContenedor.setMinimumSize(QSize(250, 0))
         self.verticalLayout_8 = QVBoxLayout(self.menuSubCentroContenedor)
-        self.verticalLayout_8.setSpacing(0)
+        self.verticalLayout_8.setSpacing(10)
         self.verticalLayout_8.setObjectName(u"verticalLayout_8")
-        self.verticalLayout_8.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_8.setContentsMargins(10, 10, 10, 10)
         self.frame_5 = QFrame(self.menuSubCentroContenedor)
         self.frame_5.setObjectName(u"frame_5")
         self.frame_5.setFrameShape(QFrame.NoFrame)
@@ -391,30 +391,21 @@ class Ui_ventanaPrincipal(object):
 
         self.horizontalLayout_6.addWidget(self.notificacionBoton)
 
-
-        self.horizontalLayout_4.addWidget(self.frame_6)
-
-        self.masBoton = QPushButton(self.cabeceraContenedor)
+        self.masBoton = QPushButton(self.frame_6)
         self.masBoton.setObjectName(u"masBoton")
         icon14 = QIcon()
         icon14.addFile(u":/feather/icons/feather/more-horizontal.png", QSize(), QIcon.Normal, QIcon.Off)
         self.masBoton.setIcon(icon14)
         self.masBoton.setIconSize(QSize(24, 24))
 
-        self.horizontalLayout_4.addWidget(self.masBoton)
+        self.horizontalLayout_6.addWidget(self.masBoton)
+
+
+        self.horizontalLayout_4.addWidget(self.frame_6)
 
         self.horizontalSpacer = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
 
         self.horizontalLayout_4.addItem(self.horizontalSpacer)
-
-        self.perfilBoton = QPushButton(self.cabeceraContenedor)
-        self.perfilBoton.setObjectName(u"perfilBoton")
-        icon15 = QIcon()
-        icon15.addFile(u":/font_awesome_regular/icons/font_awesome/regular/circle-user.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.perfilBoton.setIcon(icon15)
-        self.perfilBoton.setIconSize(QSize(24, 24))
-
-        self.horizontalLayout_4.addWidget(self.perfilBoton)
 
         self.frame_15 = QFrame(self.cabeceraContenedor)
         self.frame_15.setObjectName(u"frame_15")
@@ -427,6 +418,15 @@ class Ui_ventanaPrincipal(object):
         self.frame_15.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_13 = QHBoxLayout(self.frame_15)
         self.horizontalLayout_13.setObjectName(u"horizontalLayout_13")
+        self.perfilBoton = QPushButton(self.frame_15)
+        self.perfilBoton.setObjectName(u"perfilBoton")
+        icon15 = QIcon()
+        icon15.addFile(u":/font_awesome_regular/icons/font_awesome/regular/circle-user.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.perfilBoton.setIcon(icon15)
+        self.perfilBoton.setIconSize(QSize(24, 24))
+
+        self.horizontalLayout_13.addWidget(self.perfilBoton)
+
         self.busquedaBoton = QPushButton(self.frame_15)
         self.busquedaBoton.setObjectName(u"busquedaBoton")
         icon16 = QIcon()
@@ -788,10 +788,11 @@ class Ui_ventanaPrincipal(object):
 
         self.cerrarMenuDerecho = QPushButton(self.frame_9)
         self.cerrarMenuDerecho.setObjectName(u"cerrarMenuDerecho")
+        self.cerrarMenuDerecho.setLayoutDirection(Qt.LeftToRight)
         self.cerrarMenuDerecho.setIcon(icon12)
         self.cerrarMenuDerecho.setIconSize(QSize(24, 24))
 
-        self.horizontalLayout_8.addWidget(self.cerrarMenuDerecho)
+        self.horizontalLayout_8.addWidget(self.cerrarMenuDerecho, 0, Qt.AlignRight)
 
 
         self.gridLayout_3.addWidget(self.frame_9, 0, 0, 1, 1)
@@ -1156,11 +1157,13 @@ class Ui_ventanaPrincipal(object):
 
         self.horizontalLayout_16.addWidget(self.label_2)
 
-        self.progressBar = QProgressBar(self.frame_16)
-        self.progressBar.setObjectName(u"progressBar")
-        self.progressBar.setValue(24)
+        self.temaProgreso = QProgressBar(self.frame_16)
+        self.temaProgreso.setObjectName(u"temaProgreso")
+        self.temaProgreso.setMaximumSize(QSize(16777215, 10))
+        self.temaProgreso.setValue(24)
+        self.temaProgreso.setTextVisible(False)
 
-        self.horizontalLayout_16.addWidget(self.progressBar)
+        self.horizontalLayout_16.addWidget(self.temaProgreso)
 
 
         self.horizontalLayout_10.addWidget(self.frame_16, 0, Qt.AlignHCenter)
@@ -1184,7 +1187,7 @@ class Ui_ventanaPrincipal(object):
         self.retranslateUi(ventanaPrincipal)
 
         self.centroPaginas.setCurrentIndex(1)
-        self.principalPaginas.setCurrentIndex(0)
+        self.principalPaginas.setCurrentIndex(6)
         self.derechoPaginas.setCurrentIndex(0)
 
 

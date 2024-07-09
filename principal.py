@@ -39,7 +39,7 @@ class MainWindow(QMainWindow):
         self.app_functions = AppFunctions(self.ui)
     #Progreso Instalando Tema
     def sassCompilationProgress(self, n):
-        self.ui.progressBar.setValue(n)
+        self.ui.temaProgreso.setValue(n)
         
         #Mostrar tablas inicialmente
         self.app_functions.display_users()
