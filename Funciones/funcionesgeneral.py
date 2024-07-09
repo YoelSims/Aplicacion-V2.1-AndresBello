@@ -249,6 +249,6 @@ class AppFunctions:
             self.ui.tableWidget.setItem(row_number, 0, QTableWidgetItem(str(user.id_usuario)))
             self.ui.tableWidget.setItem(row_number, 1, QTableWidgetItem(user.cedula))
             self.ui.tableWidget.setItem(row_number, 2, QTableWidgetItem(user.nombre))
-            self.ui.tableWidget.setItem(row_number, 3, QTableWidgetItem(user.apellido))
+            self.ui.tableWidget.setItem(row_number, 3, QTableWidgetItem(user.apellido  + " " + user.nombre))
             self.ui.tableWidget.setItem(row_number, 4, QTableWidgetItem(user.telefono))
             self.ui.tableWidget.setItem(row_number, 5, QTableWidgetItem(user.correo))
