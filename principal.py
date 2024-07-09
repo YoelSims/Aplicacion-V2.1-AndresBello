@@ -6,6 +6,7 @@ from src.ui_interfaz import *
 # Importacion de Modulos Personalizados Widgets
 #from Custom_Widgets import *
 #from Custom_Widgets.QAppSettings import QAppSettings
+from Custom_Widgets.QCustomQToolTip import QCustomQToolTipFilter, QCustomQToolTip
 ########################################################################
 
 #Importacion de Funciones
@@ -36,18 +37,24 @@ class MainWindow(QMainWindow):
         init_db()
         #Llamando las Funciones
         self.app_functions = AppFunctions(self.ui)
-
+    #Progreso Instalando Tema
     def sassCompilationProgress(self, n):
         self.ui.progressBar.setValue(n)
         
         #Mostrar tablas inicialmente
         self.app_functions.display_users()
-        
+
         
         
 # Ejecutar Aplicacion
 if __name__ == "__main__":
     app = QApplication(sys.argv)
+    ###########################
+    #TipOverlay Personalizados
+    eventoTips = QCustomQToolTipFilter(tailPosition="auto", duration=700, icon="Qss/icons/ff0000/feather/search.png")
+    app.installEventFilter(eventoTips)
+
+    ##########################
     main_window = MainWindow()
     main_window.show()
     sys.exit(app.exec_())

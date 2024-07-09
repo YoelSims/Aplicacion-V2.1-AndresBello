@@ -1719,6 +1719,29 @@ QPushButton:pressed {
   background-color: #021924;
   border-radius: 10px; }
 
+#searchInpCont {
+  border-right: 1px solid #000c11;
+  border-radius: 0; }
+  #searchInpCont * {
+    border: none;
+    background-color: transparent;
+    border-radius: 2px; }
+  #searchInpCont QLineEdit {
+    border-right: 1px solid #000c11; }
+  #searchInpCont QPushButton:hover {
+    background-color: #02d3c1; }
+  #searchInpCont:hover {
+    background-color: #01131c; }
+
+#Frame, Frame {
+  border-right: 1px solid #000c11;
+  border-left: 1px solid #000c11;
+  border-radius: 0; }
+  #Frame *, Frame * {
+    border: none;
+    background-color: transparent;
+    border-radius: 7px; }
+
 #cabeceraContenedor, #pieContenedor {
   background-color: #021924; }
   #cabeceraContenedor *, #pieContenedor * {
@@ -1741,4 +1764,9 @@ QLineEdit {
 
 #editarBoton, #eliminarBoton {
   padding: 10px, 10px;
+  border-radius: 10px; }
+
+QCustomQToolTip {
+  background-color: #017E73;
+  color: #d9dde0;
   border-radius: 10px; }
