@@ -19,8 +19,6 @@ class MainWindow(QMainWindow):
     def __init__(self, parent=None):
         super(MainWindow, self).__init__()
         #QMainWindow.__init__(self)
-        # self = QMainWindow class
-        # self.ui = Ui_MainWindow / user interface class-
         self.ui = Ui_ventanaPrincipal()
         self.ui.setupUi(self)
         ########################################################################
