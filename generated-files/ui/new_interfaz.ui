@@ -556,7 +556,7 @@
           <item>
            <widget class="QCustomQStackedWidget" name="centroPaginas">
             <property name="currentIndex">
-             <number>1</number>
+             <number>0</number>
             </property>
             <widget class="QWidget" name="ajustePagina">
              <layout class="QVBoxLayout" name="verticalLayout_9">
@@ -741,6 +741,9 @@
              </item>
              <item>
               <widget class="QPushButton" name="notificacionBoton">
+               <property name="toolTip">
+                <string>Notificacion</string>
+               </property>
                <property name="text">
                 <string />
                </property>
@@ -829,6 +832,9 @@
              </item>
              <item>
               <widget class="QPushButton" name="busquedaBoton">
+               <property name="toolTip">
+                <string>Buscar</string>
+               </property>
                <property name="text">
                 <string />
                </property>
@@ -889,6 +895,9 @@
              </property>
              <item>
               <widget class="QPushButton" name="botonMenuEliminar">
+               <property name="toolTip">
+                <string>Borrar</string>
+               </property>
                <property name="text">
                 <string />
                </property>
@@ -1076,7 +1085,7 @@
                 <bool>false</bool>
                </property>
                <property name="currentIndex">
-                <number>6</number>
+                <number>1</number>
                </property>
                <widget class="QWidget" name="inicioPagina">
                 <layout class="QVBoxLayout" name="verticalLayout_18">
@@ -1095,9 +1104,28 @@
                  <property name="bottomMargin">
                   <number>0</number>
                  </property>
+                </layout>
+               </widget>
+               <widget class="QWidget" name="estudiantesPagina">
+                <layout class="QHBoxLayout" name="horizontalLayout_14">
                  <item>
                   <widget class="QWidget" name="widget_2" native="true">
-                   <layout class="QHBoxLayout" name="horizontalLayout_17">
+                   <layout class="QVBoxLayout" name="verticalLayout_19">
+                    <item>
+                     <widget class="QLabel" name="label_11">
+                      <property name="font">
+                       <font>
+                        <pointsize>13</pointsize>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>ESTUDIANTES</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
                     <item>
                      <widget class="QTableWidget" name="tableWidget">
                       <property name="sizePolicy">
@@ -1150,25 +1178,6 @@
                      </widget>
                     </item>
                    </layout>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-               <widget class="QWidget" name="estudiantesPagina">
-                <layout class="QHBoxLayout" name="horizontalLayout_14">
-                 <item>
-                  <widget class="QLabel" name="label_11">
-                   <property name="font">
-                    <font>
-                     <pointsize>13</pointsize>
-                    </font>
-                   </property>
-                   <property name="text">
-                    <string>ESTUDIANTES</string>
-                   </property>
-                   <property name="alignment">
-                    <set>Qt::AlignCenter</set>
-                   </property>
                   </widget>
                  </item>
                 </layout>

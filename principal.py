@@ -13,6 +13,8 @@ from Custom_Widgets.QCustomQToolTip import QCustomQToolTipFilter, QCustomQToolTi
 from Funciones.funcionesgeneral import *
 from BaseDatos.basededatos import init_db
 
+#Custom_Widgets --convert-ui ui --qt-library PySide6
+
 settings = QSettings()
 
 class MainWindow(QMainWindow):

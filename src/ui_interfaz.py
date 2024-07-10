@@ -542,10 +542,22 @@ class Ui_ventanaPrincipal(object):
         self.verticalLayout_18.setSpacing(0)
         self.verticalLayout_18.setObjectName(u"verticalLayout_18")
         self.verticalLayout_18.setContentsMargins(0, 0, 0, 0)
-        self.widget_2 = QWidget(self.inicioPagina)
+        self.principalPaginas.addWidget(self.inicioPagina)
+        self.estudiantesPagina = QWidget()
+        self.estudiantesPagina.setObjectName(u"estudiantesPagina")
+        self.horizontalLayout_14 = QHBoxLayout(self.estudiantesPagina)
+        self.horizontalLayout_14.setObjectName(u"horizontalLayout_14")
+        self.widget_2 = QWidget(self.estudiantesPagina)
         self.widget_2.setObjectName(u"widget_2")
-        self.horizontalLayout_17 = QHBoxLayout(self.widget_2)
-        self.horizontalLayout_17.setObjectName(u"horizontalLayout_17")
+        self.verticalLayout_19 = QVBoxLayout(self.widget_2)
+        self.verticalLayout_19.setObjectName(u"verticalLayout_19")
+        self.label_11 = QLabel(self.widget_2)
+        self.label_11.setObjectName(u"label_11")
+        self.label_11.setFont(font1)
+        self.label_11.setAlignment(Qt.AlignCenter)
+
+        self.verticalLayout_19.addWidget(self.label_11)
+
         self.tableWidget = QTableWidget(self.widget_2)
         if (self.tableWidget.columnCount() < 6):
             self.tableWidget.setColumnCount(6)
@@ -573,22 +585,10 @@ class Ui_ventanaPrincipal(object):
         self.tableWidget.setSelectionMode(QAbstractItemView.ExtendedSelection)
         self.tableWidget.setShowGrid(True)
 
-        self.horizontalLayout_17.addWidget(self.tableWidget)
+        self.verticalLayout_19.addWidget(self.tableWidget)
 
 
-        self.verticalLayout_18.addWidget(self.widget_2)
-
-        self.principalPaginas.addWidget(self.inicioPagina)
-        self.estudiantesPagina = QWidget()
-        self.estudiantesPagina.setObjectName(u"estudiantesPagina")
-        self.horizontalLayout_14 = QHBoxLayout(self.estudiantesPagina)
-        self.horizontalLayout_14.setObjectName(u"horizontalLayout_14")
-        self.label_11 = QLabel(self.estudiantesPagina)
-        self.label_11.setObjectName(u"label_11")
-        self.label_11.setFont(font1)
-        self.label_11.setAlignment(Qt.AlignCenter)
-
-        self.horizontalLayout_14.addWidget(self.label_11)
+        self.horizontalLayout_14.addWidget(self.widget_2)
 
         self.principalPaginas.addWidget(self.estudiantesPagina)
         self.materiasPagina = QWidget()
@@ -1186,8 +1186,8 @@ class Ui_ventanaPrincipal(object):
 
         self.retranslateUi(ventanaPrincipal)
 
-        self.centroPaginas.setCurrentIndex(1)
-        self.principalPaginas.setCurrentIndex(6)
+        self.centroPaginas.setCurrentIndex(0)
+        self.principalPaginas.setCurrentIndex(1)
         self.derechoPaginas.setCurrentIndex(0)
 
 
@@ -1255,6 +1255,9 @@ class Ui_ventanaPrincipal(object):
         self.label_4.setText(QCoreApplication.translate("ventanaPrincipal", u"AYUDA", None))
         self.label_5.setText("")
         self.label_6.setText(QCoreApplication.translate("ventanaPrincipal", u"Complejo Educativo Andres Bello", None))
+#if QT_CONFIG(tooltip)
+        self.notificacionBoton.setToolTip(QCoreApplication.translate("ventanaPrincipal", u"Notificacion", None))
+#endif // QT_CONFIG(tooltip)
         self.notificacionBoton.setText("")
 #if QT_CONFIG(tooltip)
         self.masBoton.setToolTip(QCoreApplication.translate("ventanaPrincipal", u"Mas", None))
@@ -1264,8 +1267,14 @@ class Ui_ventanaPrincipal(object):
         self.perfilBoton.setToolTip(QCoreApplication.translate("ventanaPrincipal", u"Perfil", None))
 #endif // QT_CONFIG(tooltip)
         self.perfilBoton.setText("")
+#if QT_CONFIG(tooltip)
+        self.busquedaBoton.setToolTip(QCoreApplication.translate("ventanaPrincipal", u"Buscar", None))
+#endif // QT_CONFIG(tooltip)
         self.busquedaBoton.setText("")
         self.busquedaTexto.setPlaceholderText(QCoreApplication.translate("ventanaPrincipal", u"Busqueda...", None))
+#if QT_CONFIG(tooltip)
+        self.botonMenuEliminar.setToolTip(QCoreApplication.translate("ventanaPrincipal", u"Borrar", None))
+#endif // QT_CONFIG(tooltip)
         self.botonMenuEliminar.setText("")
 #if QT_CONFIG(tooltip)
         self.minimizarBoton.setToolTip(QCoreApplication.translate("ventanaPrincipal", u"Minimizar Ventana", None))
@@ -1279,6 +1288,7 @@ class Ui_ventanaPrincipal(object):
         self.cerrarBoton.setToolTip(QCoreApplication.translate("ventanaPrincipal", u"Cerrar Ventana", None))
 #endif // QT_CONFIG(tooltip)
         self.cerrarBoton.setText("")
+        self.label_11.setText(QCoreApplication.translate("ventanaPrincipal", u"ESTUDIANTES", None))
         ___qtablewidgetitem = self.tableWidget.horizontalHeaderItem(0)
         ___qtablewidgetitem.setText(QCoreApplication.translate("ventanaPrincipal", u"ID", None));
         ___qtablewidgetitem1 = self.tableWidget.horizontalHeaderItem(1)
@@ -1291,7 +1301,6 @@ class Ui_ventanaPrincipal(object):
         ___qtablewidgetitem4.setText(QCoreApplication.translate("ventanaPrincipal", u"Telefono", None));
         ___qtablewidgetitem5 = self.tableWidget.horizontalHeaderItem(5)
         ___qtablewidgetitem5.setText(QCoreApplication.translate("ventanaPrincipal", u"Correo", None));
-        self.label_11.setText(QCoreApplication.translate("ventanaPrincipal", u"ESTUDIANTES", None))
         self.label_12.setText(QCoreApplication.translate("ventanaPrincipal", u"MATERIAS", None))
         self.label_13.setText(QCoreApplication.translate("ventanaPrincipal", u"PROFESORES", None))
         self.label_14.setText(QCoreApplication.translate("ventanaPrincipal", u"NOTAS", None))
