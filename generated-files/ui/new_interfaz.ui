@@ -779,6 +779,26 @@
                </property>
               </widget>
              </item>
+             <item>
+              <widget class="QPushButton" name="perfilBoton">
+               <property name="toolTip">
+                <string>Perfil</string>
+               </property>
+               <property name="text">
+                <string />
+               </property>
+               <property name="icon">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
+                 <normaloff>:/font_awesome_regular/icons/font_awesome/regular/circle-user.png</normaloff>:/font_awesome_regular/icons/font_awesome/regular/circle-user.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>24</width>
+                 <height>24</height>
+                </size>
+               </property>
+              </widget>
+             </item>
             </layout>
            </widget>
           </item>
@@ -794,26 +814,6 @@
              </size>
             </property>
            </spacer>
-          </item>
-          <item>
-           <widget class="QPushButton" name="perfilBoton">
-            <property name="toolTip">
-             <string>Perfil</string>
-            </property>
-            <property name="text">
-             <string />
-            </property>
-            <property name="icon">
-             <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
-              <normaloff>:/font_awesome_regular/icons/font_awesome/regular/circle-user.png</normaloff>:/font_awesome_regular/icons/font_awesome/regular/circle-user.png</iconset>
-            </property>
-            <property name="iconSize">
-             <size>
-              <width>24</width>
-              <height>24</height>
-             </size>
-            </property>
-           </widget>
           </item>
           <item alignment="Qt::AlignVCenter">
            <widget class="QFrame" name="frame_15">

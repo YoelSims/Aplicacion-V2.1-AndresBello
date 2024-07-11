@@ -400,21 +400,21 @@ class Ui_ventanaPrincipal(object):
 
         self.horizontalLayout_6.addWidget(self.masBoton)
 
-
-        self.horizontalLayout_4.addWidget(self.frame_6)
-
-        self.horizontalSpacer = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
-
-        self.horizontalLayout_4.addItem(self.horizontalSpacer)
-
-        self.perfilBoton = QPushButton(self.cabeceraContenedor)
+        self.perfilBoton = QPushButton(self.frame_6)
         self.perfilBoton.setObjectName(u"perfilBoton")
         icon15 = QIcon()
         icon15.addFile(u":/font_awesome_regular/icons/font_awesome/regular/circle-user.png", QSize(), QIcon.Normal, QIcon.Off)
         self.perfilBoton.setIcon(icon15)
         self.perfilBoton.setIconSize(QSize(24, 24))
 
-        self.horizontalLayout_4.addWidget(self.perfilBoton)
+        self.horizontalLayout_6.addWidget(self.perfilBoton)
+
+
+        self.horizontalLayout_4.addWidget(self.frame_6)
+
+        self.horizontalSpacer = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+
+        self.horizontalLayout_4.addItem(self.horizontalSpacer)
 
         self.frame_15 = QFrame(self.cabeceraContenedor)
         self.frame_15.setObjectName(u"frame_15")
