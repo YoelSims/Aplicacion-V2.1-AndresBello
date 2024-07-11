@@ -849,7 +849,7 @@
             </property>
             <property name="maximumSize">
              <size>
-              <width>130</width>
+              <width>200</width>
               <height>16777215</height>
              </size>
             </property>
@@ -3697,7 +3697,7 @@
   <include location="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc"/>
   <include location="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc"/>
   <include location="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc"/>
-  <include location="../../../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc"/>
+  <include location="../Qss/icons/_icons.qrc"/>
  </resources>
  <connections/>
 </ui>

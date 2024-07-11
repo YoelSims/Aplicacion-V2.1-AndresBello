@@ -425,7 +425,7 @@ class Ui_ventanaPrincipal(object):
         sizePolicy4.setVerticalStretch(0)
         sizePolicy4.setHeightForWidth(self.frame_15.sizePolicy().hasHeightForWidth())
         self.frame_15.setSizePolicy(sizePolicy4)
-        self.frame_15.setMaximumSize(QSize(130, 16777215))
+        self.frame_15.setMaximumSize(QSize(200, 16777215))
         self.frame_15.setFrameShape(QFrame.StyledPanel)
         self.frame_15.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_13 = QHBoxLayout(self.frame_15)

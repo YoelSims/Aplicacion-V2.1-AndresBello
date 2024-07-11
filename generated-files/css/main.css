@@ -1708,7 +1708,7 @@ QPushButton:pressed {
   background-color: #565859; }
 
 #cerrarMenuCentro:hover, #cerrarMenuDerecho:hover {
-  background-color: #01A89A; }
+  background-color: #565859; }
 
 #cerrarMenuCentro:pressed, #cerrarMenuDerecho:pressed {
   background-color: #ac2020; }
@@ -1716,9 +1716,6 @@ QPushButton:pressed {
 #cerrarMenuCentro, #cerrarMenuDerecho {
   padding: 1;
   border-radius: 10; }
-
-#cerrarMenuDerecho {
-  text-align: center; }
 
 #cerrarSesionBoton {
   padding: 5px, 10px 8px; }
@@ -1736,16 +1733,13 @@ QPushButton:pressed {
   border-bottom-right-radius: 15px;
   padding: 3; }
 
-#frame_15 {
-  border-right: 1px solid #000c11;
+#frame_15:hover {
   border-radius: 10;
   border: 2px solid #02d3c1; }
-  #frame_15 * {
+  #frame_15:hover * {
     border: none;
     background-color: transparent;
     border-radius: 2px; }
-  #frame_15 QLineEdit {
-    border-right: 1px solid #000c11; }
 
 #Frame, Frame {
   border-right: 1px solid #000c11;
