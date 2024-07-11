@@ -779,15 +779,16 @@ class Ui_ventanaPrincipal(object):
 
         self.masVer = QPushButton(self.frame_25)
         self.masVer.setObjectName(u"masVer")
-        self.masVer.setMinimumSize(QSize(80, 0))
+        self.masVer.setMinimumSize(QSize(75, 0))
         icon21 = QIcon()
-        icon21.addFile(u":/font_awesome_solid/icons/font_awesome/solid/arrow-right-long.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon21.addFile(u":/font_awesome_solid/icons/font_awesome/solid/arrow-right.png", QSize(), QIcon.Normal, QIcon.Off)
         self.masVer.setIcon(icon21)
+        self.masVer.setIconSize(QSize(24, 24))
 
-        self.horizontalLayout_27.addWidget(self.masVer)
+        self.horizontalLayout_27.addWidget(self.masVer, 0, Qt.AlignRight)
 
 
-        self.verticalLayout_34.addWidget(self.frame_25, 0, Qt.AlignTop)
+        self.verticalLayout_34.addWidget(self.frame_25)
 
         self.frame_26 = QFrame(self.widget_8)
         self.frame_26.setObjectName(u"frame_26")
@@ -900,8 +901,235 @@ class Ui_ventanaPrincipal(object):
 
         self.widget_9 = QWidget(self.listadoVer)
         self.widget_9.setObjectName(u"widget_9")
+        self.verticalLayout_30 = QVBoxLayout(self.widget_9)
+        self.verticalLayout_30.setObjectName(u"verticalLayout_30")
+        self.frame_27 = QFrame(self.widget_9)
+        self.frame_27.setObjectName(u"frame_27")
+        self.frame_27.setFont(font1)
+        self.frame_27.setFrameShape(QFrame.StyledPanel)
+        self.frame_27.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_28 = QHBoxLayout(self.frame_27)
+        self.horizontalLayout_28.setObjectName(u"horizontalLayout_28")
+        self.label_70 = QLabel(self.frame_27)
+        self.label_70.setObjectName(u"label_70")
+        self.label_70.setFont(font6)
 
-        self.horizontalLayout_25.addWidget(self.widget_9)
+        self.horizontalLayout_28.addWidget(self.label_70)
+
+        self.verMas2 = QPushButton(self.frame_27)
+        self.verMas2.setObjectName(u"verMas2")
+        icon22 = QIcon()
+        icon22.addFile(u":/feather/icons/feather/arrow-right.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.verMas2.setIcon(icon22)
+        self.verMas2.setIconSize(QSize(24, 24))
+
+        self.horizontalLayout_28.addWidget(self.verMas2)
+
+
+        self.verticalLayout_30.addWidget(self.frame_27)
+
+        self.frame_28 = QFrame(self.widget_9)
+        self.frame_28.setObjectName(u"frame_28")
+        self.frame_28.setFrameShape(QFrame.StyledPanel)
+        self.frame_28.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_29 = QHBoxLayout(self.frame_28)
+        self.horizontalLayout_29.setObjectName(u"horizontalLayout_29")
+        self.label_75 = QLabel(self.frame_28)
+        self.label_75.setObjectName(u"label_75")
+        self.label_75.setMinimumSize(QSize(50, 50))
+        self.label_75.setMaximumSize(QSize(50, 50))
+        self.label_75.setPixmap(QPixmap(u":/Imagen/Imagenes/Logo/2.png"))
+        self.label_75.setScaledContents(True)
+
+        self.horizontalLayout_29.addWidget(self.label_75)
+
+        self.label_76 = QLabel(self.frame_28)
+        self.label_76.setObjectName(u"label_76")
+
+        self.horizontalLayout_29.addWidget(self.label_76)
+
+        self.label_77 = QLabel(self.frame_28)
+        self.label_77.setObjectName(u"label_77")
+        self.label_77.setMinimumSize(QSize(35, 35))
+        self.label_77.setMaximumSize(QSize(35, 35))
+        self.label_77.setPixmap(QPixmap(u":/feather/icons/feather/facebook.png"))
+        self.label_77.setScaledContents(True)
+
+        self.horizontalLayout_29.addWidget(self.label_77)
+
+        self.label_78 = QLabel(self.frame_28)
+        self.label_78.setObjectName(u"label_78")
+        self.label_78.setMinimumSize(QSize(35, 35))
+        self.label_78.setMaximumSize(QSize(35, 35))
+        self.label_78.setPixmap(QPixmap(u":/font_awesome_brands/icons/font_awesome/brands/whatsapp.png"))
+        self.label_78.setScaledContents(True)
+
+        self.horizontalLayout_29.addWidget(self.label_78)
+
+        self.label_79 = QLabel(self.frame_28)
+        self.label_79.setObjectName(u"label_79")
+        self.label_79.setMinimumSize(QSize(35, 35))
+        self.label_79.setMaximumSize(QSize(35, 35))
+        self.label_79.setPixmap(QPixmap(u":/feather/icons/feather/phone.png"))
+        self.label_79.setScaledContents(True)
+
+        self.horizontalLayout_29.addWidget(self.label_79)
+
+
+        self.verticalLayout_30.addWidget(self.frame_28)
+
+        self.frame_30 = QFrame(self.widget_9)
+        self.frame_30.setObjectName(u"frame_30")
+        self.frame_30.setFrameShape(QFrame.StyledPanel)
+        self.frame_30.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_31 = QHBoxLayout(self.frame_30)
+        self.horizontalLayout_31.setObjectName(u"horizontalLayout_31")
+        self.label_85 = QLabel(self.frame_30)
+        self.label_85.setObjectName(u"label_85")
+        self.label_85.setMinimumSize(QSize(50, 50))
+        self.label_85.setMaximumSize(QSize(50, 50))
+        self.label_85.setPixmap(QPixmap(u":/Imagen/Imagenes/Logo/2.png"))
+        self.label_85.setScaledContents(True)
+
+        self.horizontalLayout_31.addWidget(self.label_85)
+
+        self.label_86 = QLabel(self.frame_30)
+        self.label_86.setObjectName(u"label_86")
+
+        self.horizontalLayout_31.addWidget(self.label_86)
+
+        self.label_87 = QLabel(self.frame_30)
+        self.label_87.setObjectName(u"label_87")
+        self.label_87.setMinimumSize(QSize(35, 35))
+        self.label_87.setMaximumSize(QSize(35, 35))
+        self.label_87.setPixmap(QPixmap(u":/feather/icons/feather/facebook.png"))
+        self.label_87.setScaledContents(True)
+
+        self.horizontalLayout_31.addWidget(self.label_87)
+
+        self.label_88 = QLabel(self.frame_30)
+        self.label_88.setObjectName(u"label_88")
+        self.label_88.setMinimumSize(QSize(35, 35))
+        self.label_88.setMaximumSize(QSize(35, 35))
+        self.label_88.setPixmap(QPixmap(u":/font_awesome_brands/icons/font_awesome/brands/whatsapp.png"))
+        self.label_88.setScaledContents(True)
+
+        self.horizontalLayout_31.addWidget(self.label_88)
+
+        self.label_89 = QLabel(self.frame_30)
+        self.label_89.setObjectName(u"label_89")
+        self.label_89.setMinimumSize(QSize(35, 35))
+        self.label_89.setMaximumSize(QSize(35, 35))
+        self.label_89.setPixmap(QPixmap(u":/feather/icons/feather/phone.png"))
+        self.label_89.setScaledContents(True)
+
+        self.horizontalLayout_31.addWidget(self.label_89)
+
+
+        self.verticalLayout_30.addWidget(self.frame_30)
+
+        self.frame_29 = QFrame(self.widget_9)
+        self.frame_29.setObjectName(u"frame_29")
+        self.frame_29.setFrameShape(QFrame.StyledPanel)
+        self.frame_29.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_30 = QHBoxLayout(self.frame_29)
+        self.horizontalLayout_30.setObjectName(u"horizontalLayout_30")
+        self.label_80 = QLabel(self.frame_29)
+        self.label_80.setObjectName(u"label_80")
+        self.label_80.setMinimumSize(QSize(50, 50))
+        self.label_80.setMaximumSize(QSize(50, 50))
+        self.label_80.setPixmap(QPixmap(u":/Imagen/Imagenes/Logo/2.png"))
+        self.label_80.setScaledContents(True)
+
+        self.horizontalLayout_30.addWidget(self.label_80)
+
+        self.label_81 = QLabel(self.frame_29)
+        self.label_81.setObjectName(u"label_81")
+
+        self.horizontalLayout_30.addWidget(self.label_81)
+
+        self.label_82 = QLabel(self.frame_29)
+        self.label_82.setObjectName(u"label_82")
+        self.label_82.setMinimumSize(QSize(35, 35))
+        self.label_82.setMaximumSize(QSize(35, 35))
+        self.label_82.setPixmap(QPixmap(u":/feather/icons/feather/facebook.png"))
+        self.label_82.setScaledContents(True)
+
+        self.horizontalLayout_30.addWidget(self.label_82)
+
+        self.label_83 = QLabel(self.frame_29)
+        self.label_83.setObjectName(u"label_83")
+        self.label_83.setMinimumSize(QSize(35, 35))
+        self.label_83.setMaximumSize(QSize(35, 35))
+        self.label_83.setPixmap(QPixmap(u":/font_awesome_brands/icons/font_awesome/brands/whatsapp.png"))
+        self.label_83.setScaledContents(True)
+
+        self.horizontalLayout_30.addWidget(self.label_83)
+
+        self.label_84 = QLabel(self.frame_29)
+        self.label_84.setObjectName(u"label_84")
+        self.label_84.setMinimumSize(QSize(35, 35))
+        self.label_84.setMaximumSize(QSize(35, 35))
+        self.label_84.setPixmap(QPixmap(u":/feather/icons/feather/phone.png"))
+        self.label_84.setScaledContents(True)
+
+        self.horizontalLayout_30.addWidget(self.label_84)
+
+
+        self.verticalLayout_30.addWidget(self.frame_29)
+
+        self.frame_20 = QFrame(self.widget_9)
+        self.frame_20.setObjectName(u"frame_20")
+        self.frame_20.setFrameShape(QFrame.StyledPanel)
+        self.frame_20.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_20 = QHBoxLayout(self.frame_20)
+        self.horizontalLayout_20.setObjectName(u"horizontalLayout_20")
+        self.label_38 = QLabel(self.frame_20)
+        self.label_38.setObjectName(u"label_38")
+        self.label_38.setMinimumSize(QSize(50, 50))
+        self.label_38.setMaximumSize(QSize(50, 50))
+        self.label_38.setPixmap(QPixmap(u":/Imagen/Imagenes/Logo/2.png"))
+        self.label_38.setScaledContents(True)
+
+        self.horizontalLayout_20.addWidget(self.label_38)
+
+        self.label_39 = QLabel(self.frame_20)
+        self.label_39.setObjectName(u"label_39")
+
+        self.horizontalLayout_20.addWidget(self.label_39)
+
+        self.label_40 = QLabel(self.frame_20)
+        self.label_40.setObjectName(u"label_40")
+        self.label_40.setMinimumSize(QSize(35, 35))
+        self.label_40.setMaximumSize(QSize(35, 35))
+        self.label_40.setPixmap(QPixmap(u":/feather/icons/feather/facebook.png"))
+        self.label_40.setScaledContents(True)
+
+        self.horizontalLayout_20.addWidget(self.label_40)
+
+        self.label_42 = QLabel(self.frame_20)
+        self.label_42.setObjectName(u"label_42")
+        self.label_42.setMinimumSize(QSize(35, 35))
+        self.label_42.setMaximumSize(QSize(35, 35))
+        self.label_42.setPixmap(QPixmap(u":/font_awesome_brands/icons/font_awesome/brands/whatsapp.png"))
+        self.label_42.setScaledContents(True)
+
+        self.horizontalLayout_20.addWidget(self.label_42)
+
+        self.label_41 = QLabel(self.frame_20)
+        self.label_41.setObjectName(u"label_41")
+        self.label_41.setMinimumSize(QSize(35, 35))
+        self.label_41.setMaximumSize(QSize(35, 35))
+        self.label_41.setPixmap(QPixmap(u":/feather/icons/feather/phone.png"))
+        self.label_41.setScaledContents(True)
+
+        self.horizontalLayout_20.addWidget(self.label_41)
+
+
+        self.verticalLayout_30.addWidget(self.frame_20)
+
+
+        self.horizontalLayout_25.addWidget(self.widget_9, 0, Qt.AlignRight)
 
 
         self.verticalLayout_18.addWidget(self.listadoVer)
@@ -1278,9 +1506,9 @@ class Ui_ventanaPrincipal(object):
         self.actualizarBoton.setMaximumSize(QSize(140, 40))
         self.actualizarBoton.setFont(font7)
         self.actualizarBoton.setLayoutDirection(Qt.LeftToRight)
-        icon22 = QIcon()
-        icon22.addFile(u":/feather/icons/feather/check-circle.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.actualizarBoton.setIcon(icon22)
+        icon23 = QIcon()
+        icon23.addFile(u":/feather/icons/feather/check-circle.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.actualizarBoton.setIcon(icon23)
         self.actualizarBoton.setIconSize(QSize(32, 32))
 
         self.verticalLayout_15.addWidget(self.actualizarBoton, 0, Qt.AlignHCenter)
@@ -1409,9 +1637,9 @@ class Ui_ventanaPrincipal(object):
         self.eliminarBoton.setObjectName(u"eliminarBoton")
         self.eliminarBoton.setMinimumSize(QSize(0, 10))
         self.eliminarBoton.setFont(font7)
-        icon23 = QIcon()
-        icon23.addFile(u":/feather/icons/feather/alert-triangle.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.eliminarBoton.setIcon(icon23)
+        icon24 = QIcon()
+        icon24.addFile(u":/feather/icons/feather/alert-triangle.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.eliminarBoton.setIcon(icon24)
         self.eliminarBoton.setIconSize(QSize(40, 40))
 
         self.gridLayout.addWidget(self.eliminarBoton, 6, 0, 1, 1, Qt.AlignHCenter)
@@ -1420,9 +1648,9 @@ class Ui_ventanaPrincipal(object):
         self.editarBoton.setObjectName(u"editarBoton")
         self.editarBoton.setMinimumSize(QSize(0, 10))
         self.editarBoton.setFont(font7)
-        icon24 = QIcon()
-        icon24.addFile(u":/feather/icons/feather/refresh-cw.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.editarBoton.setIcon(icon24)
+        icon25 = QIcon()
+        icon25.addFile(u":/feather/icons/feather/refresh-cw.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.editarBoton.setIcon(icon25)
         self.editarBoton.setIconSize(QSize(40, 40))
 
         self.gridLayout.addWidget(self.editarBoton, 2, 0, 1, 1, Qt.AlignHCenter)
@@ -1683,6 +1911,28 @@ class Ui_ventanaPrincipal(object):
         self.label_67.setText(QCoreApplication.translate("ventanaPrincipal", u"V", None))
         self.label_68.setText(QCoreApplication.translate("ventanaPrincipal", u"\"B\"", None))
         self.label_69.setText(QCoreApplication.translate("ventanaPrincipal", u"F", None))
+        self.label_70.setText(QCoreApplication.translate("ventanaPrincipal", u"Ultimas Materias", None))
+        self.verMas2.setText(QCoreApplication.translate("ventanaPrincipal", u"Ver Mas", None))
+        self.label_75.setText("")
+        self.label_76.setText(QCoreApplication.translate("ventanaPrincipal", u"<html><head/><body><p><span style=\" font-size:11pt; font-weight:600;\">Universidad</span></p><p>UBV</p></body></html>", None))
+        self.label_77.setText("")
+        self.label_78.setText("")
+        self.label_79.setText("")
+        self.label_85.setText("")
+        self.label_86.setText(QCoreApplication.translate("ventanaPrincipal", u"<html><head/><body><p><span style=\" font-size:11pt; font-weight:600;\">Universidad</span></p><p>UBV</p></body></html>", None))
+        self.label_87.setText("")
+        self.label_88.setText("")
+        self.label_89.setText("")
+        self.label_80.setText("")
+        self.label_81.setText(QCoreApplication.translate("ventanaPrincipal", u"<html><head/><body><p><span style=\" font-size:11pt; font-weight:600;\">Universidad</span></p><p>UBV</p></body></html>", None))
+        self.label_82.setText("")
+        self.label_83.setText("")
+        self.label_84.setText("")
+        self.label_38.setText("")
+        self.label_39.setText(QCoreApplication.translate("ventanaPrincipal", u"<html><head/><body><p><span style=\" font-size:11pt; font-weight:600;\">Universidad</span></p><p>UBV</p></body></html>", None))
+        self.label_40.setText("")
+        self.label_42.setText("")
+        self.label_41.setText("")
         self.label_11.setText(QCoreApplication.translate("ventanaPrincipal", u"ESTUDIANTES", None))
         ___qtablewidgetitem = self.tableWidget.horizontalHeaderItem(0)
         ___qtablewidgetitem.setText(QCoreApplication.translate("ventanaPrincipal", u"ID", None));

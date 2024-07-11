@@ -14,91 +14,7 @@
    <string>Sistema Gestion Estudiantil Andres Bello</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">*{
-	border: none;
-    background-color: transparent;
-    background: transparent;
-	padding: 0;
-	margin:  0;
-	color: #000000
-}
-
-#centralContenedor{
-	background-color: #e0dcd5;
-}
-
-#subMenuContenedorIzquierdo{
-	background-color: #ffffff;
-}
-
-#subMenuContenedorIzquierdo, QPushButton{
-	text-align: left;
-	padding:  5px, 10px 3px;
-	border-top-right-radius:10px;
-	border-bottom-right-radius:10px;
-}
-
-#menuBoton{
-	text-align: center;
-}
-
-#cerrarSesionBoton{
-		padding:  5px, 10px 8px;
-}
-
-#menuSubCentroContenedor,#subMenuDerecho{
-	background-color: #d3cec3;
-}
-
-#frame_5, #frame_9, #emergenteNotificacionSubContenedor, #emergente2{
-	background-color: #ffffff;
-	border-radius:10px;
-}
-
-#cabeceraContenedor, #pieContenedor{
-	background-color: #d3cec3
-}
-
-QLineEdit{
-	background-color: #ffffff;
-	padding: 5px 10px;
-	margin: 0px;
-	border-radius: 5px;
-}
-
-#actualizarBoton{
-	padding: 10px, 10px;
-	border-radius: 10px;
-}
-
-#editarBoton, #eliminarBoton{
-	padding: 10px, 10px;
-	border-radius: 10px;
-}
-
-#carta1, #carta2, #carta3, #carta4{
-	background-color: #fff;
-}
-
-#busquedaTexto{
-	background: transparent;
-}
-
-#frame_15{
-	border-radius: 10px;
-	border: 2px solid #f00
-}
-
-#masVer, #verMas2{
-	background-color: #f00;
-	color: #fff;
-	border-radius: 10px;
-}
-
-#widget_8, #widget_9{
-	background-color: #fFF;
-	border-radius: 10px;
-}</string>
+   <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralContenedor">
    <layout class="QHBoxLayout" name="horizontalLayout">
@@ -1857,9 +1773,9 @@ QLineEdit{
                          </layout>
                         </widget>
                        </item>
-                       <item>
+                       <item alignment="Qt::AlignRight">
                         <widget class="QWidget" name="widget_9" native="true">
-                         <layout class="QVBoxLayout" name="verticalLayout_35">
+                         <layout class="QVBoxLayout" name="verticalLayout_30">
                           <item>
                            <widget class="QFrame" name="frame_27">
                             <property name="font">
@@ -1874,7 +1790,7 @@ QLineEdit{
                              <enum>QFrame::Raised</enum>
                             </property>
                             <layout class="QHBoxLayout" name="horizontalLayout_28">
-                             <item alignment="Qt::AlignLeft|Qt::AlignTop">
+                             <item>
                               <widget class="QLabel" name="label_70">
                                <property name="font">
                                 <font>
@@ -1888,7 +1804,7 @@ QLineEdit{
                                </property>
                               </widget>
                              </item>
-                             <item alignment="Qt::AlignRight|Qt::AlignTop">
+                             <item>
                               <widget class="QPushButton" name="verMas2">
                                <property name="text">
                                 <string>Ver Mas</string>
@@ -1902,6 +1818,482 @@ QLineEdit{
                                  <width>24</width>
                                  <height>24</height>
                                 </size>
+                               </property>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QFrame" name="frame_28">
+                            <property name="frameShape">
+                             <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Raised</enum>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_29">
+                             <item>
+                              <widget class="QLabel" name="label_75">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>50</width>
+                                 <height>50</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>50</width>
+                                 <height>50</height>
+                                </size>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="pixmap">
+                                <pixmap resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">:/Imagen/Imagenes/Logo/2.png</pixmap>
+                               </property>
+                               <property name="scaledContents">
+                                <bool>true</bool>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QLabel" name="label_76">
+                               <property name="text">
+                                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Universidad&lt;/span&gt;&lt;/p&gt;&lt;p&gt;UBV&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QLabel" name="label_77">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="pixmap">
+                                <pixmap resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">:/feather/icons/feather/facebook.png</pixmap>
+                               </property>
+                               <property name="scaledContents">
+                                <bool>true</bool>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QLabel" name="label_78">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="pixmap">
+                                <pixmap resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">:/font_awesome_brands/icons/font_awesome/brands/whatsapp.png</pixmap>
+                               </property>
+                               <property name="scaledContents">
+                                <bool>true</bool>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QLabel" name="label_79">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="pixmap">
+                                <pixmap resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">:/feather/icons/feather/phone.png</pixmap>
+                               </property>
+                               <property name="scaledContents">
+                                <bool>true</bool>
+                               </property>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QFrame" name="frame_30">
+                            <property name="frameShape">
+                             <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Raised</enum>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_31">
+                             <item>
+                              <widget class="QLabel" name="label_85">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>50</width>
+                                 <height>50</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>50</width>
+                                 <height>50</height>
+                                </size>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="pixmap">
+                                <pixmap resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">:/Imagen/Imagenes/Logo/2.png</pixmap>
+                               </property>
+                               <property name="scaledContents">
+                                <bool>true</bool>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QLabel" name="label_86">
+                               <property name="text">
+                                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Universidad&lt;/span&gt;&lt;/p&gt;&lt;p&gt;UBV&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QLabel" name="label_87">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="pixmap">
+                                <pixmap resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">:/feather/icons/feather/facebook.png</pixmap>
+                               </property>
+                               <property name="scaledContents">
+                                <bool>true</bool>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QLabel" name="label_88">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="pixmap">
+                                <pixmap resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">:/font_awesome_brands/icons/font_awesome/brands/whatsapp.png</pixmap>
+                               </property>
+                               <property name="scaledContents">
+                                <bool>true</bool>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QLabel" name="label_89">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="pixmap">
+                                <pixmap resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">:/feather/icons/feather/phone.png</pixmap>
+                               </property>
+                               <property name="scaledContents">
+                                <bool>true</bool>
+                               </property>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QFrame" name="frame_29">
+                            <property name="frameShape">
+                             <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Raised</enum>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_30">
+                             <item>
+                              <widget class="QLabel" name="label_80">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>50</width>
+                                 <height>50</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>50</width>
+                                 <height>50</height>
+                                </size>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="pixmap">
+                                <pixmap resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">:/Imagen/Imagenes/Logo/2.png</pixmap>
+                               </property>
+                               <property name="scaledContents">
+                                <bool>true</bool>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QLabel" name="label_81">
+                               <property name="text">
+                                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Universidad&lt;/span&gt;&lt;/p&gt;&lt;p&gt;UBV&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QLabel" name="label_82">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="pixmap">
+                                <pixmap resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">:/feather/icons/feather/facebook.png</pixmap>
+                               </property>
+                               <property name="scaledContents">
+                                <bool>true</bool>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QLabel" name="label_83">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="pixmap">
+                                <pixmap resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">:/font_awesome_brands/icons/font_awesome/brands/whatsapp.png</pixmap>
+                               </property>
+                               <property name="scaledContents">
+                                <bool>true</bool>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QLabel" name="label_84">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="pixmap">
+                                <pixmap resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">:/feather/icons/feather/phone.png</pixmap>
+                               </property>
+                               <property name="scaledContents">
+                                <bool>true</bool>
+                               </property>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QFrame" name="frame_20">
+                            <property name="frameShape">
+                             <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Raised</enum>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_20">
+                             <item>
+                              <widget class="QLabel" name="label_38">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>50</width>
+                                 <height>50</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>50</width>
+                                 <height>50</height>
+                                </size>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="pixmap">
+                                <pixmap resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">:/Imagen/Imagenes/Logo/2.png</pixmap>
+                               </property>
+                               <property name="scaledContents">
+                                <bool>true</bool>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QLabel" name="label_39">
+                               <property name="text">
+                                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt; font-weight:600;&quot;&gt;Universidad&lt;/span&gt;&lt;/p&gt;&lt;p&gt;UBV&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QLabel" name="label_40">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="pixmap">
+                                <pixmap resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">:/feather/icons/feather/facebook.png</pixmap>
+                               </property>
+                               <property name="scaledContents">
+                                <bool>true</bool>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QLabel" name="label_42">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="pixmap">
+                                <pixmap resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">:/font_awesome_brands/icons/font_awesome/brands/whatsapp.png</pixmap>
+                               </property>
+                               <property name="scaledContents">
+                                <bool>true</bool>
+                               </property>
+                              </widget>
+                             </item>
+                             <item>
+                              <widget class="QLabel" name="label_41">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>35</width>
+                                 <height>35</height>
+                                </size>
+                               </property>
+                               <property name="text">
+                                <string/>
+                               </property>
+                               <property name="pixmap">
+                                <pixmap resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">:/feather/icons/feather/phone.png</pixmap>
+                               </property>
+                               <property name="scaledContents">
+                                <bool>true</bool>
                                </property>
                               </widget>
                              </item>

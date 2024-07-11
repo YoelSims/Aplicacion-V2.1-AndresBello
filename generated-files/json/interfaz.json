@@ -86,7 +86,11 @@
     },
     {
       "name": "masVer",
-      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/solid/arrow-right-long.png"
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/solid/arrow-right.png"
+    },
+    {
+      "name": "verMas2",
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/arrow-right.png"
     },
     {
       "name": "cerrarMenuDerecho",
@@ -133,6 +137,70 @@
     {
       "name": "label_51",
       "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/solid/cubes.png"
+    },
+    {
+      "name": "label_75",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/Imagenes/Logo/2.png"
+    },
+    {
+      "name": "label_77",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/facebook.png"
+    },
+    {
+      "name": "label_78",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/brands/whatsapp.png"
+    },
+    {
+      "name": "label_79",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/phone.png"
+    },
+    {
+      "name": "label_85",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/Imagenes/Logo/2.png"
+    },
+    {
+      "name": "label_87",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/facebook.png"
+    },
+    {
+      "name": "label_88",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/brands/whatsapp.png"
+    },
+    {
+      "name": "label_89",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/phone.png"
+    },
+    {
+      "name": "label_80",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/Imagenes/Logo/2.png"
+    },
+    {
+      "name": "label_82",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/facebook.png"
+    },
+    {
+      "name": "label_83",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/brands/whatsapp.png"
+    },
+    {
+      "name": "label_84",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/phone.png"
+    },
+    {
+      "name": "label_38",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/Imagenes/Logo/2.png"
+    },
+    {
+      "name": "label_40",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/facebook.png"
+    },
+    {
+      "name": "label_42",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/brands/whatsapp.png"
+    },
+    {
+      "name": "label_41",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/phone.png"
     },
     {
       "name": "label_25",
