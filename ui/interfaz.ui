@@ -503,19 +503,19 @@
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_8">
           <property name="spacing">
-           <number>10</number>
+           <number>3</number>
           </property>
           <property name="leftMargin">
-           <number>10</number>
+           <number>5</number>
           </property>
           <property name="topMargin">
-           <number>10</number>
+           <number>5</number>
           </property>
           <property name="rightMargin">
-           <number>10</number>
+           <number>5</number>
           </property>
           <property name="bottomMargin">
-           <number>10</number>
+           <number>5</number>
           </property>
           <item>
            <widget class="QFrame" name="frame_5">
@@ -835,6 +835,12 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="maximumSize">
+             <size>
+              <width>130</width>
+              <height>16777215</height>
+             </size>
+            </property>
             <property name="frameShape">
              <enum>QFrame::StyledPanel</enum>
             </property>
@@ -953,7 +959,7 @@
               <number>6</number>
              </property>
              <property name="leftMargin">
-              <number>20</number>
+              <number>25</number>
              </property>
              <property name="topMargin">
               <number>0</number>
@@ -1152,16 +1158,16 @@
                            <number>0</number>
                           </property>
                           <property name="leftMargin">
-                           <number>10</number>
+                           <number>0</number>
                           </property>
                           <property name="topMargin">
-                           <number>10</number>
+                           <number>5</number>
                           </property>
                           <property name="rightMargin">
-                           <number>10</number>
+                           <number>0</number>
                           </property>
                           <property name="bottomMargin">
-                           <number>10</number>
+                           <number>5</number>
                           </property>
                           <item>
                            <widget class="QLabel" name="label_53">
