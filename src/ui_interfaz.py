@@ -27,7 +27,7 @@ class Ui_ventanaPrincipal(object):
     def setupUi(self, ventanaPrincipal):
         if not ventanaPrincipal.objectName():
             ventanaPrincipal.setObjectName(u"ventanaPrincipal")
-        ventanaPrincipal.resize(1185, 829)
+        ventanaPrincipal.resize(1195, 829)
         ventanaPrincipal.setStyleSheet(u"")
         self.centralContenedor = QWidget(ventanaPrincipal)
         self.centralContenedor.setObjectName(u"centralContenedor")
@@ -238,12 +238,13 @@ class Ui_ventanaPrincipal(object):
         self.verticalLayout_8 = QVBoxLayout(self.menuSubCentroContenedor)
         self.verticalLayout_8.setSpacing(3)
         self.verticalLayout_8.setObjectName(u"verticalLayout_8")
-        self.verticalLayout_8.setContentsMargins(5, 5, 5, 5)
+        self.verticalLayout_8.setContentsMargins(5, 0, 0, 0)
         self.frame_5 = QFrame(self.menuSubCentroContenedor)
         self.frame_5.setObjectName(u"frame_5")
         self.frame_5.setFrameShape(QFrame.NoFrame)
         self.horizontalLayout_2 = QHBoxLayout(self.frame_5)
         self.horizontalLayout_2.setObjectName(u"horizontalLayout_2")
+        self.horizontalLayout_2.setContentsMargins(5, 5, 5, 5)
         self.label = QLabel(self.frame_5)
         self.label.setObjectName(u"label")
 
@@ -358,14 +359,14 @@ class Ui_ventanaPrincipal(object):
         self.cabeceraContenedor.setObjectName(u"cabeceraContenedor")
         self.horizontalLayout_4 = QHBoxLayout(self.cabeceraContenedor)
         self.horizontalLayout_4.setObjectName(u"horizontalLayout_4")
-        self.horizontalLayout_4.setContentsMargins(20, 5, 5, 5)
+        self.horizontalLayout_4.setContentsMargins(20, 0, 5, 0)
         self.frame_6 = QFrame(self.cabeceraContenedor)
         self.frame_6.setObjectName(u"frame_6")
         self.frame_6.setFrameShape(QFrame.NoFrame)
         self.horizontalLayout_6 = QHBoxLayout(self.frame_6)
-        self.horizontalLayout_6.setSpacing(10)
+        self.horizontalLayout_6.setSpacing(6)
         self.horizontalLayout_6.setObjectName(u"horizontalLayout_6")
-        self.horizontalLayout_6.setContentsMargins(10, 0, 0, 0)
+        self.horizontalLayout_6.setContentsMargins(10, 5, 5, 5)
         self.label_5 = QLabel(self.frame_6)
         self.label_5.setObjectName(u"label_5")
         self.label_5.setMaximumSize(QSize(50, 50))
@@ -1365,15 +1366,16 @@ class Ui_ventanaPrincipal(object):
         self.subMenuDerecho = QWidget(self.menuContenedorDerecho)
         self.subMenuDerecho.setObjectName(u"subMenuDerecho")
         self.subMenuDerecho.setMinimumSize(QSize(0, 0))
-        self.gridLayout_3 = QGridLayout(self.subMenuDerecho)
-        self.gridLayout_3.setSpacing(0)
-        self.gridLayout_3.setObjectName(u"gridLayout_3")
-        self.gridLayout_3.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_31 = QVBoxLayout(self.subMenuDerecho)
+        self.verticalLayout_31.setSpacing(3)
+        self.verticalLayout_31.setObjectName(u"verticalLayout_31")
+        self.verticalLayout_31.setContentsMargins(0, 0, 0, 0)
         self.frame_9 = QFrame(self.subMenuDerecho)
         self.frame_9.setObjectName(u"frame_9")
         self.frame_9.setFrameShape(QFrame.NoFrame)
         self.horizontalLayout_8 = QHBoxLayout(self.frame_9)
         self.horizontalLayout_8.setObjectName(u"horizontalLayout_8")
+        self.horizontalLayout_8.setContentsMargins(5, 5, 5, 5)
         self.label_7 = QLabel(self.frame_9)
         self.label_7.setObjectName(u"label_7")
         font6 = QFont()
@@ -1393,7 +1395,7 @@ class Ui_ventanaPrincipal(object):
         self.horizontalLayout_8.addWidget(self.cerrarMenuDerecho, 0, Qt.AlignRight)
 
 
-        self.gridLayout_3.addWidget(self.frame_9, 0, 0, 1, 1)
+        self.verticalLayout_31.addWidget(self.frame_9)
 
         self.derechoPaginas = QCustomQStackedWidget(self.subMenuDerecho)
         self.derechoPaginas.setObjectName(u"derechoPaginas")
@@ -1523,7 +1525,7 @@ class Ui_ventanaPrincipal(object):
         self.label_8.setObjectName(u"label_8")
         self.label_8.setFont(font1)
 
-        self.verticalLayout_15.addWidget(self.label_8)
+        self.verticalLayout_15.addWidget(self.label_8, 0, Qt.AlignHCenter|Qt.AlignBottom)
 
         self.derechoPaginas.addWidget(self.perfilPagina)
         self.masPagina = QWidget()
@@ -1663,7 +1665,7 @@ class Ui_ventanaPrincipal(object):
 
         self.derechoPaginas.addWidget(self.eliminarPagina)
 
-        self.gridLayout_3.addWidget(self.derechoPaginas, 1, 0, 1, 1)
+        self.verticalLayout_31.addWidget(self.derechoPaginas)
 
 
         self.verticalLayout_13.addWidget(self.subMenuDerecho)

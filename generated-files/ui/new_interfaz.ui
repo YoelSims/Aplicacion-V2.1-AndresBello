@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1185</width>
+    <width>1195</width>
     <height>829</height>
    </rect>
   </property>
@@ -509,13 +509,13 @@
            <number>5</number>
           </property>
           <property name="topMargin">
-           <number>5</number>
+           <number>0</number>
           </property>
           <property name="rightMargin">
-           <number>5</number>
+           <number>0</number>
           </property>
           <property name="bottomMargin">
-           <number>5</number>
+           <number>0</number>
           </property>
           <item>
            <widget class="QFrame" name="frame_5">
@@ -523,6 +523,18 @@
              <enum>QFrame::NoFrame</enum>
             </property>
             <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <property name="leftMargin">
+              <number>5</number>
+             </property>
+             <property name="topMargin">
+              <number>5</number>
+             </property>
+             <property name="rightMargin">
+              <number>5</number>
+             </property>
+             <property name="bottomMargin">
+              <number>5</number>
+             </property>
              <item>
               <widget class="QLabel" name="label">
                <property name="text">
@@ -689,13 +701,13 @@
            <number>20</number>
           </property>
           <property name="topMargin">
-           <number>5</number>
+           <number>0</number>
           </property>
           <property name="rightMargin">
            <number>5</number>
           </property>
           <property name="bottomMargin">
-           <number>5</number>
+           <number>0</number>
           </property>
           <item>
            <widget class="QFrame" name="frame_6">
@@ -704,19 +716,19 @@
             </property>
             <layout class="QHBoxLayout" name="horizontalLayout_6">
              <property name="spacing">
-              <number>10</number>
+              <number>6</number>
              </property>
              <property name="leftMargin">
               <number>10</number>
              </property>
              <property name="topMargin">
-              <number>0</number>
+              <number>5</number>
              </property>
              <property name="rightMargin">
-              <number>0</number>
+              <number>5</number>
              </property>
              <property name="bottomMargin">
-              <number>0</number>
+              <number>5</number>
              </property>
              <item>
               <widget class="QLabel" name="label_5">
@@ -2784,7 +2796,10 @@
                  <height>0</height>
                 </size>
                </property>
-               <layout class="QGridLayout" name="gridLayout_3">
+               <layout class="QVBoxLayout" name="verticalLayout_31">
+                <property name="spacing">
+                 <number>3</number>
+                </property>
                 <property name="leftMargin">
                  <number>0</number>
                 </property>
@@ -2797,15 +2812,24 @@
                 <property name="bottomMargin">
                  <number>0</number>
                 </property>
-                <property name="spacing">
-                 <number>0</number>
-                </property>
-                <item row="0" column="0">
+                <item>
                  <widget class="QFrame" name="frame_9">
                   <property name="frameShape">
                    <enum>QFrame::NoFrame</enum>
                   </property>
                   <layout class="QHBoxLayout" name="horizontalLayout_8">
+                   <property name="leftMargin">
+                    <number>5</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>5</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>5</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>5</number>
+                   </property>
                    <item>
                     <widget class="QLabel" name="label_7">
                      <property name="font">
@@ -2847,7 +2871,7 @@
                   </layout>
                  </widget>
                 </item>
-                <item row="1" column="0">
+                <item>
                  <widget class="QCustomQStackedWidget" name="derechoPaginas">
                   <property name="currentIndex">
                    <number>0</number>
@@ -3155,7 +3179,7 @@
                       </property>
                      </widget>
                     </item>
-                    <item>
+                    <item alignment="Qt::AlignHCenter|Qt::AlignBottom">
                      <widget class="QLabel" name="label_8">
                       <property name="font">
                        <font>
