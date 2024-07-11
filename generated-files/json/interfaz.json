@@ -85,6 +85,10 @@
       "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/solid/xmark.png"
     },
     {
+      "name": "masVer",
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/solid/arrow-right-long.png"
+    },
+    {
       "name": "cerrarMenuDerecho",
       "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/regular/circle-xmark.png"
     },
@@ -109,6 +113,26 @@
     {
       "name": "label_5",
       "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/Imagenes/Logo/2.png"
+    },
+    {
+      "name": "label_53",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/material_design/home.png"
+    },
+    {
+      "name": "label_36",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/solid/user-graduate.png"
+    },
+    {
+      "name": "label_45",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/solid/user-tie.png"
+    },
+    {
+      "name": "label_48",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/solid/layer-group.png"
+    },
+    {
+      "name": "label_51",
+      "pixmap": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/solid/cubes.png"
     },
     {
       "name": "label_25",

@@ -407,6 +407,15 @@ class Ui_ventanaPrincipal(object):
 
         self.horizontalLayout_4.addItem(self.horizontalSpacer)
 
+        self.perfilBoton = QPushButton(self.cabeceraContenedor)
+        self.perfilBoton.setObjectName(u"perfilBoton")
+        icon15 = QIcon()
+        icon15.addFile(u":/font_awesome_regular/icons/font_awesome/regular/circle-user.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.perfilBoton.setIcon(icon15)
+        self.perfilBoton.setIconSize(QSize(24, 24))
+
+        self.horizontalLayout_4.addWidget(self.perfilBoton)
+
         self.frame_15 = QFrame(self.cabeceraContenedor)
         self.frame_15.setObjectName(u"frame_15")
         sizePolicy4 = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
@@ -417,16 +426,9 @@ class Ui_ventanaPrincipal(object):
         self.frame_15.setFrameShape(QFrame.StyledPanel)
         self.frame_15.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_13 = QHBoxLayout(self.frame_15)
+        self.horizontalLayout_13.setSpacing(0)
         self.horizontalLayout_13.setObjectName(u"horizontalLayout_13")
-        self.perfilBoton = QPushButton(self.frame_15)
-        self.perfilBoton.setObjectName(u"perfilBoton")
-        icon15 = QIcon()
-        icon15.addFile(u":/font_awesome_regular/icons/font_awesome/regular/circle-user.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.perfilBoton.setIcon(icon15)
-        self.perfilBoton.setIconSize(QSize(24, 24))
-
-        self.horizontalLayout_13.addWidget(self.perfilBoton)
-
+        self.horizontalLayout_13.setContentsMargins(0, 0, 0, 0)
         self.busquedaBoton = QPushButton(self.frame_15)
         self.busquedaBoton.setObjectName(u"busquedaBoton")
         icon16 = QIcon()
@@ -527,10 +529,10 @@ class Ui_ventanaPrincipal(object):
         sizePolicy4.setHeightForWidth(self.principalContenidosContenedor.sizePolicy().hasHeightForWidth())
         self.principalContenidosContenedor.setSizePolicy(sizePolicy4)
         self.principalContenidosContenedor.setLayoutDirection(Qt.LeftToRight)
-        self.horizontalLayout_15 = QHBoxLayout(self.principalContenidosContenedor)
-        self.horizontalLayout_15.setSpacing(0)
-        self.horizontalLayout_15.setObjectName(u"horizontalLayout_15")
-        self.horizontalLayout_15.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_28 = QVBoxLayout(self.principalContenidosContenedor)
+        self.verticalLayout_28.setSpacing(0)
+        self.verticalLayout_28.setObjectName(u"verticalLayout_28")
+        self.verticalLayout_28.setContentsMargins(0, 0, 0, 0)
         self.principalPaginas = QCustomQStackedWidget(self.principalContenidosContenedor)
         self.principalPaginas.setObjectName(u"principalPaginas")
         sizePolicy4.setHeightForWidth(self.principalPaginas.sizePolicy().hasHeightForWidth())
@@ -538,10 +540,375 @@ class Ui_ventanaPrincipal(object):
         self.principalPaginas.setAutoFillBackground(False)
         self.inicioPagina = QWidget()
         self.inicioPagina.setObjectName(u"inicioPagina")
-        self.verticalLayout_18 = QVBoxLayout(self.inicioPagina)
-        self.verticalLayout_18.setSpacing(0)
+        self.horizontalLayout_15 = QHBoxLayout(self.inicioPagina)
+        self.horizontalLayout_15.setSpacing(0)
+        self.horizontalLayout_15.setObjectName(u"horizontalLayout_15")
+        self.horizontalLayout_15.setContentsMargins(0, 0, 0, 0)
+        self.widget_6 = QWidget(self.inicioPagina)
+        self.widget_6.setObjectName(u"widget_6")
+        self.verticalLayout_18 = QVBoxLayout(self.widget_6)
         self.verticalLayout_18.setObjectName(u"verticalLayout_18")
-        self.verticalLayout_18.setContentsMargins(0, 0, 0, 0)
+        self.widget_7 = QWidget(self.widget_6)
+        self.widget_7.setObjectName(u"widget_7")
+        self.verticalLayout_32 = QVBoxLayout(self.widget_7)
+        self.verticalLayout_32.setObjectName(u"verticalLayout_32")
+        self.frame_18 = QFrame(self.widget_7)
+        self.frame_18.setObjectName(u"frame_18")
+        self.frame_18.setFrameShape(QFrame.StyledPanel)
+        self.frame_18.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_26 = QHBoxLayout(self.frame_18)
+        self.horizontalLayout_26.setObjectName(u"horizontalLayout_26")
+        self.label_53 = QLabel(self.frame_18)
+        self.label_53.setObjectName(u"label_53")
+        self.label_53.setMaximumSize(QSize(40, 40))
+        self.label_53.setPixmap(QPixmap(u":/material_design/icons/material_design/home.png"))
+        self.label_53.setScaledContents(True)
+
+        self.horizontalLayout_26.addWidget(self.label_53)
+
+        self.label_34 = QLabel(self.frame_18)
+        self.label_34.setObjectName(u"label_34")
+        sizePolicy4.setHeightForWidth(self.label_34.sizePolicy().hasHeightForWidth())
+        self.label_34.setSizePolicy(sizePolicy4)
+        font3 = QFont()
+        font3.setPointSize(12)
+        self.label_34.setFont(font3)
+
+        self.horizontalLayout_26.addWidget(self.label_34)
+
+
+        self.verticalLayout_32.addWidget(self.frame_18)
+
+
+        self.verticalLayout_18.addWidget(self.widget_7)
+
+        self.cartasContenedor = QWidget(self.widget_6)
+        self.cartasContenedor.setObjectName(u"cartasContenedor")
+        self.horizontalLayout_17 = QHBoxLayout(self.cartasContenedor)
+        self.horizontalLayout_17.setSpacing(20)
+        self.horizontalLayout_17.setObjectName(u"horizontalLayout_17")
+        self.horizontalLayout_17.setContentsMargins(0, 0, 0, 0)
+        self.carta1 = QFrame(self.cartasContenedor)
+        self.carta1.setObjectName(u"carta1")
+        self.carta1.setMinimumSize(QSize(160, 0))
+        self.carta1.setFrameShape(QFrame.StyledPanel)
+        self.carta1.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_29 = QVBoxLayout(self.carta1)
+        self.verticalLayout_29.setObjectName(u"verticalLayout_29")
+        self.frame_19 = QFrame(self.carta1)
+        self.frame_19.setObjectName(u"frame_19")
+        self.frame_19.setFrameShape(QFrame.StyledPanel)
+        self.frame_19.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_19 = QHBoxLayout(self.frame_19)
+        self.horizontalLayout_19.setObjectName(u"horizontalLayout_19")
+        self.label_35 = QLabel(self.frame_19)
+        self.label_35.setObjectName(u"label_35")
+        font4 = QFont()
+        font4.setPointSize(14)
+        font4.setBold(True)
+        self.label_35.setFont(font4)
+
+        self.horizontalLayout_19.addWidget(self.label_35)
+
+        self.label_36 = QLabel(self.frame_19)
+        self.label_36.setObjectName(u"label_36")
+        self.label_36.setMaximumSize(QSize(40, 40))
+        self.label_36.setPixmap(QPixmap(u":/font_awesome_solid/icons/font_awesome/solid/user-graduate.png"))
+        self.label_36.setScaledContents(True)
+
+        self.horizontalLayout_19.addWidget(self.label_36)
+
+
+        self.verticalLayout_29.addWidget(self.frame_19)
+
+        self.label_37 = QLabel(self.carta1)
+        self.label_37.setObjectName(u"label_37")
+        font5 = QFont()
+        font5.setPointSize(10)
+        self.label_37.setFont(font5)
+
+        self.verticalLayout_29.addWidget(self.label_37, 0, Qt.AlignTop)
+
+
+        self.horizontalLayout_17.addWidget(self.carta1)
+
+        self.carta2 = QFrame(self.cartasContenedor)
+        self.carta2.setObjectName(u"carta2")
+        self.carta2.setMinimumSize(QSize(160, 0))
+        self.carta2.setFrameShape(QFrame.StyledPanel)
+        self.carta2.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_33 = QVBoxLayout(self.carta2)
+        self.verticalLayout_33.setObjectName(u"verticalLayout_33")
+        self.frame_22 = QFrame(self.carta2)
+        self.frame_22.setObjectName(u"frame_22")
+        self.frame_22.setFrameShape(QFrame.StyledPanel)
+        self.frame_22.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_22 = QHBoxLayout(self.frame_22)
+        self.horizontalLayout_22.setObjectName(u"horizontalLayout_22")
+        self.label_44 = QLabel(self.frame_22)
+        self.label_44.setObjectName(u"label_44")
+        self.label_44.setFont(font4)
+
+        self.horizontalLayout_22.addWidget(self.label_44)
+
+        self.label_45 = QLabel(self.frame_22)
+        self.label_45.setObjectName(u"label_45")
+        self.label_45.setMaximumSize(QSize(40, 40))
+        self.label_45.setPixmap(QPixmap(u":/font_awesome_solid/icons/font_awesome/solid/user-tie.png"))
+        self.label_45.setScaledContents(True)
+
+        self.horizontalLayout_22.addWidget(self.label_45)
+
+
+        self.verticalLayout_33.addWidget(self.frame_22)
+
+        self.label_46 = QLabel(self.carta2)
+        self.label_46.setObjectName(u"label_46")
+        self.label_46.setFont(font5)
+
+        self.verticalLayout_33.addWidget(self.label_46, 0, Qt.AlignTop)
+
+
+        self.horizontalLayout_17.addWidget(self.carta2)
+
+        self.carta3 = QFrame(self.cartasContenedor)
+        self.carta3.setObjectName(u"carta3")
+        self.carta3.setMinimumSize(QSize(160, 0))
+        self.carta3.setFrameShape(QFrame.StyledPanel)
+        self.carta3.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_36 = QVBoxLayout(self.carta3)
+        self.verticalLayout_36.setObjectName(u"verticalLayout_36")
+        self.frame_23 = QFrame(self.carta3)
+        self.frame_23.setObjectName(u"frame_23")
+        self.frame_23.setFrameShape(QFrame.StyledPanel)
+        self.frame_23.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_23 = QHBoxLayout(self.frame_23)
+        self.horizontalLayout_23.setObjectName(u"horizontalLayout_23")
+        self.label_47 = QLabel(self.frame_23)
+        self.label_47.setObjectName(u"label_47")
+        self.label_47.setFont(font4)
+
+        self.horizontalLayout_23.addWidget(self.label_47)
+
+        self.label_48 = QLabel(self.frame_23)
+        self.label_48.setObjectName(u"label_48")
+        self.label_48.setMaximumSize(QSize(40, 40))
+        self.label_48.setPixmap(QPixmap(u":/font_awesome_solid/icons/font_awesome/solid/layer-group.png"))
+        self.label_48.setScaledContents(True)
+
+        self.horizontalLayout_23.addWidget(self.label_48)
+
+
+        self.verticalLayout_36.addWidget(self.frame_23)
+
+        self.label_49 = QLabel(self.carta3)
+        self.label_49.setObjectName(u"label_49")
+        self.label_49.setFont(font5)
+
+        self.verticalLayout_36.addWidget(self.label_49, 0, Qt.AlignTop)
+
+
+        self.horizontalLayout_17.addWidget(self.carta3)
+
+        self.carta4 = QFrame(self.cartasContenedor)
+        self.carta4.setObjectName(u"carta4")
+        self.carta4.setMinimumSize(QSize(160, 0))
+        self.carta4.setFrameShape(QFrame.StyledPanel)
+        self.carta4.setFrameShadow(QFrame.Raised)
+        self.verticalLayout_37 = QVBoxLayout(self.carta4)
+        self.verticalLayout_37.setObjectName(u"verticalLayout_37")
+        self.frame_24 = QFrame(self.carta4)
+        self.frame_24.setObjectName(u"frame_24")
+        self.frame_24.setFrameShape(QFrame.StyledPanel)
+        self.frame_24.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_24 = QHBoxLayout(self.frame_24)
+        self.horizontalLayout_24.setObjectName(u"horizontalLayout_24")
+        self.label_50 = QLabel(self.frame_24)
+        self.label_50.setObjectName(u"label_50")
+        self.label_50.setFont(font4)
+
+        self.horizontalLayout_24.addWidget(self.label_50)
+
+        self.label_51 = QLabel(self.frame_24)
+        self.label_51.setObjectName(u"label_51")
+        self.label_51.setMaximumSize(QSize(40, 40))
+        self.label_51.setPixmap(QPixmap(u":/font_awesome_solid/icons/font_awesome/solid/cubes.png"))
+        self.label_51.setScaledContents(True)
+
+        self.horizontalLayout_24.addWidget(self.label_51)
+
+
+        self.verticalLayout_37.addWidget(self.frame_24)
+
+        self.label_52 = QLabel(self.carta4)
+        self.label_52.setObjectName(u"label_52")
+        self.label_52.setFont(font5)
+
+        self.verticalLayout_37.addWidget(self.label_52, 0, Qt.AlignTop)
+
+
+        self.horizontalLayout_17.addWidget(self.carta4)
+
+
+        self.verticalLayout_18.addWidget(self.cartasContenedor)
+
+        self.listadoVer = QWidget(self.widget_6)
+        self.listadoVer.setObjectName(u"listadoVer")
+        sizePolicy1.setHeightForWidth(self.listadoVer.sizePolicy().hasHeightForWidth())
+        self.listadoVer.setSizePolicy(sizePolicy1)
+        self.horizontalLayout_25 = QHBoxLayout(self.listadoVer)
+        self.horizontalLayout_25.setObjectName(u"horizontalLayout_25")
+        self.widget_8 = QWidget(self.listadoVer)
+        self.widget_8.setObjectName(u"widget_8")
+        self.verticalLayout_34 = QVBoxLayout(self.widget_8)
+        self.verticalLayout_34.setObjectName(u"verticalLayout_34")
+        self.frame_25 = QFrame(self.widget_8)
+        self.frame_25.setObjectName(u"frame_25")
+        self.frame_25.setFrameShape(QFrame.StyledPanel)
+        self.frame_25.setFrameShadow(QFrame.Raised)
+        self.horizontalLayout_27 = QHBoxLayout(self.frame_25)
+        self.horizontalLayout_27.setObjectName(u"horizontalLayout_27")
+        self.label_54 = QLabel(self.frame_25)
+        self.label_54.setObjectName(u"label_54")
+        font6 = QFont()
+        font6.setPointSize(13)
+        font6.setBold(True)
+        self.label_54.setFont(font6)
+
+        self.horizontalLayout_27.addWidget(self.label_54)
+
+        self.masVer = QPushButton(self.frame_25)
+        self.masVer.setObjectName(u"masVer")
+        self.masVer.setMinimumSize(QSize(80, 0))
+        icon21 = QIcon()
+        icon21.addFile(u":/font_awesome_solid/icons/font_awesome/solid/arrow-right-long.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.masVer.setIcon(icon21)
+
+        self.horizontalLayout_27.addWidget(self.masVer)
+
+
+        self.verticalLayout_34.addWidget(self.frame_25, 0, Qt.AlignTop)
+
+        self.frame_26 = QFrame(self.widget_8)
+        self.frame_26.setObjectName(u"frame_26")
+        self.frame_26.setFrameShape(QFrame.StyledPanel)
+        self.frame_26.setFrameShadow(QFrame.Raised)
+        self.gridLayout_6 = QGridLayout(self.frame_26)
+        self.gridLayout_6.setObjectName(u"gridLayout_6")
+        self.label_56 = QLabel(self.frame_26)
+        self.label_56.setObjectName(u"label_56")
+        font7 = QFont()
+        font7.setPointSize(11)
+        font7.setBold(True)
+        self.label_56.setFont(font7)
+
+        self.gridLayout_6.addWidget(self.label_56, 0, 1, 1, 1)
+
+        self.label_57 = QLabel(self.frame_26)
+        self.label_57.setObjectName(u"label_57")
+        self.label_57.setFont(font7)
+
+        self.gridLayout_6.addWidget(self.label_57, 0, 2, 1, 1)
+
+        self.label_55 = QLabel(self.frame_26)
+        self.label_55.setObjectName(u"label_55")
+        self.label_55.setFont(font7)
+
+        self.gridLayout_6.addWidget(self.label_55, 0, 0, 1, 1)
+
+        self.label_58 = QLabel(self.frame_26)
+        self.label_58.setObjectName(u"label_58")
+        self.label_58.setFont(font5)
+
+        self.gridLayout_6.addWidget(self.label_58, 1, 0, 1, 1)
+
+        self.label_60 = QLabel(self.frame_26)
+        self.label_60.setObjectName(u"label_60")
+        self.label_60.setFont(font5)
+
+        self.gridLayout_6.addWidget(self.label_60, 1, 2, 1, 1)
+
+        self.label_59 = QLabel(self.frame_26)
+        self.label_59.setObjectName(u"label_59")
+        self.label_59.setFont(font5)
+
+        self.gridLayout_6.addWidget(self.label_59, 1, 1, 1, 1)
+
+        self.label_62 = QLabel(self.frame_26)
+        self.label_62.setObjectName(u"label_62")
+        self.label_62.setFont(font5)
+
+        self.gridLayout_6.addWidget(self.label_62, 2, 1, 1, 1)
+
+        self.label_65 = QLabel(self.frame_26)
+        self.label_65.setObjectName(u"label_65")
+        self.label_65.setFont(font5)
+
+        self.gridLayout_6.addWidget(self.label_65, 3, 1, 1, 1)
+
+        self.label_64 = QLabel(self.frame_26)
+        self.label_64.setObjectName(u"label_64")
+        self.label_64.setFont(font5)
+
+        self.gridLayout_6.addWidget(self.label_64, 3, 0, 1, 1)
+
+        self.label_66 = QLabel(self.frame_26)
+        self.label_66.setObjectName(u"label_66")
+        self.label_66.setFont(font5)
+
+        self.gridLayout_6.addWidget(self.label_66, 3, 2, 1, 1)
+
+        self.label_63 = QLabel(self.frame_26)
+        self.label_63.setObjectName(u"label_63")
+        self.label_63.setFont(font5)
+
+        self.gridLayout_6.addWidget(self.label_63, 2, 2, 1, 1)
+
+        self.label_61 = QLabel(self.frame_26)
+        self.label_61.setObjectName(u"label_61")
+        self.label_61.setFont(font5)
+
+        self.gridLayout_6.addWidget(self.label_61, 2, 0, 1, 1)
+
+        self.label_67 = QLabel(self.frame_26)
+        self.label_67.setObjectName(u"label_67")
+        self.label_67.setFont(font5)
+
+        self.gridLayout_6.addWidget(self.label_67, 4, 0, 1, 1)
+
+        self.label_68 = QLabel(self.frame_26)
+        self.label_68.setObjectName(u"label_68")
+        self.label_68.setFont(font5)
+
+        self.gridLayout_6.addWidget(self.label_68, 4, 1, 1, 1)
+
+        self.label_69 = QLabel(self.frame_26)
+        self.label_69.setObjectName(u"label_69")
+        self.label_69.setFont(font5)
+
+        self.gridLayout_6.addWidget(self.label_69, 4, 2, 1, 1)
+
+
+        self.verticalLayout_34.addWidget(self.frame_26)
+
+        self.verticalSpacer_2 = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+
+        self.verticalLayout_34.addItem(self.verticalSpacer_2)
+
+
+        self.horizontalLayout_25.addWidget(self.widget_8)
+
+        self.widget_9 = QWidget(self.listadoVer)
+        self.widget_9.setObjectName(u"widget_9")
+
+        self.horizontalLayout_25.addWidget(self.widget_9)
+
+
+        self.verticalLayout_18.addWidget(self.listadoVer)
+
+
+        self.horizontalLayout_15.addWidget(self.widget_6)
+
         self.principalPaginas.addWidget(self.inicioPagina)
         self.estudiantesPagina = QWidget()
         self.estudiantesPagina.setObjectName(u"estudiantesPagina")
@@ -579,9 +946,9 @@ class Ui_ventanaPrincipal(object):
         sizePolicy6.setVerticalStretch(0)
         sizePolicy6.setHeightForWidth(self.tableWidget.sizePolicy().hasHeightForWidth())
         self.tableWidget.setSizePolicy(sizePolicy6)
-        font3 = QFont()
-        font3.setPointSize(9)
-        self.tableWidget.setFont(font3)
+        font8 = QFont()
+        font8.setPointSize(9)
+        self.tableWidget.setFont(font8)
         self.tableWidget.setSelectionMode(QAbstractItemView.ExtendedSelection)
         self.tableWidget.setShowGrid(True)
 
@@ -747,7 +1114,7 @@ class Ui_ventanaPrincipal(object):
 
         self.principalPaginas.addWidget(self.gradosPagina)
 
-        self.horizontalLayout_15.addWidget(self.principalPaginas)
+        self.verticalLayout_28.addWidget(self.principalPaginas)
 
 
         self.horizontalLayout_7.addWidget(self.principalContenidosContenedor)
@@ -778,11 +1145,11 @@ class Ui_ventanaPrincipal(object):
         self.horizontalLayout_8.setObjectName(u"horizontalLayout_8")
         self.label_7 = QLabel(self.frame_9)
         self.label_7.setObjectName(u"label_7")
-        font4 = QFont()
-        font4.setPointSize(11)
-        font4.setBold(True)
-        font4.setItalic(False)
-        self.label_7.setFont(font4)
+        font9 = QFont()
+        font9.setPointSize(11)
+        font9.setBold(True)
+        font9.setItalic(False)
+        self.label_7.setFont(font9)
 
         self.horizontalLayout_8.addWidget(self.label_7)
 
@@ -835,10 +1202,7 @@ class Ui_ventanaPrincipal(object):
         self.label_33 = QLabel(self.frame_11)
         self.label_33.setObjectName(u"label_33")
         self.label_33.setMaximumSize(QSize(200, 20))
-        font5 = QFont()
-        font5.setPointSize(11)
-        font5.setBold(True)
-        self.label_33.setFont(font5)
+        self.label_33.setFont(font7)
 
         self.gridLayout_5.addWidget(self.label_33, 0, 0, 1, 1)
 
@@ -851,7 +1215,7 @@ class Ui_ventanaPrincipal(object):
         self.label_23 = QLabel(self.frame_11)
         self.label_23.setObjectName(u"label_23")
         self.label_23.setMaximumSize(QSize(200, 20))
-        self.label_23.setFont(font5)
+        self.label_23.setFont(font7)
 
         self.gridLayout_5.addWidget(self.label_23, 6, 0, 1, 1)
 
@@ -876,7 +1240,7 @@ class Ui_ventanaPrincipal(object):
         self.label_20 = QLabel(self.frame_11)
         self.label_20.setObjectName(u"label_20")
         self.label_20.setMaximumSize(QSize(100, 20))
-        self.label_20.setFont(font5)
+        self.label_20.setFont(font7)
         self.label_20.setLayoutDirection(Qt.LeftToRight)
 
         self.gridLayout_5.addWidget(self.label_20, 2, 0, 1, 1)
@@ -884,7 +1248,7 @@ class Ui_ventanaPrincipal(object):
         self.label_21 = QLabel(self.frame_11)
         self.label_21.setObjectName(u"label_21")
         self.label_21.setMaximumSize(QSize(100, 20))
-        self.label_21.setFont(font5)
+        self.label_21.setFont(font7)
         self.label_21.setLayoutDirection(Qt.LeftToRight)
 
         self.gridLayout_5.addWidget(self.label_21, 4, 0, 1, 1)
@@ -892,7 +1256,7 @@ class Ui_ventanaPrincipal(object):
         self.label_32 = QLabel(self.frame_11)
         self.label_32.setObjectName(u"label_32")
         self.label_32.setMaximumSize(QSize(150, 20))
-        self.label_32.setFont(font5)
+        self.label_32.setFont(font7)
         self.label_32.setStyleSheet(u"")
 
         self.gridLayout_5.addWidget(self.label_32, 8, 0, 1, 1)
@@ -912,11 +1276,11 @@ class Ui_ventanaPrincipal(object):
         self.actualizarBoton.setSizePolicy(sizePolicy8)
         self.actualizarBoton.setMinimumSize(QSize(140, 40))
         self.actualizarBoton.setMaximumSize(QSize(140, 40))
-        self.actualizarBoton.setFont(font5)
+        self.actualizarBoton.setFont(font7)
         self.actualizarBoton.setLayoutDirection(Qt.LeftToRight)
-        icon21 = QIcon()
-        icon21.addFile(u":/feather/icons/feather/check-circle.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.actualizarBoton.setIcon(icon21)
+        icon22 = QIcon()
+        icon22.addFile(u":/feather/icons/feather/check-circle.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.actualizarBoton.setIcon(icon22)
         self.actualizarBoton.setIconSize(QSize(32, 32))
 
         self.verticalLayout_15.addWidget(self.actualizarBoton, 0, Qt.AlignHCenter)
@@ -980,7 +1344,7 @@ class Ui_ventanaPrincipal(object):
         self.gridLayout_2.setContentsMargins(9, 0, 0, 2)
         self.label_28 = QLabel(self.frame_13)
         self.label_28.setObjectName(u"label_28")
-        self.label_28.setFont(font5)
+        self.label_28.setFont(font7)
 
         self.gridLayout_2.addWidget(self.label_28, 2, 0, 1, 1)
 
@@ -998,13 +1362,13 @@ class Ui_ventanaPrincipal(object):
 
         self.label_29 = QLabel(self.frame_13)
         self.label_29.setObjectName(u"label_29")
-        self.label_29.setFont(font5)
+        self.label_29.setFont(font7)
 
         self.gridLayout_2.addWidget(self.label_29, 4, 0, 1, 1)
 
         self.label_27 = QLabel(self.frame_13)
         self.label_27.setObjectName(u"label_27")
-        self.label_27.setFont(font5)
+        self.label_27.setFont(font7)
 
         self.gridLayout_2.addWidget(self.label_27, 0, 0, 1, 1)
 
@@ -1025,13 +1389,13 @@ class Ui_ventanaPrincipal(object):
 
         self.label_30 = QLabel(self.frame_13)
         self.label_30.setObjectName(u"label_30")
-        self.label_30.setFont(font5)
+        self.label_30.setFont(font7)
 
         self.gridLayout_2.addWidget(self.label_30, 6, 0, 1, 1)
 
         self.label_31 = QLabel(self.frame_13)
         self.label_31.setObjectName(u"label_31")
-        self.label_31.setFont(font5)
+        self.label_31.setFont(font7)
 
         self.gridLayout_2.addWidget(self.label_31, 8, 0, 1, 1)
 
@@ -1044,10 +1408,10 @@ class Ui_ventanaPrincipal(object):
         self.eliminarBoton = QPushButton(self.eliminarPagina)
         self.eliminarBoton.setObjectName(u"eliminarBoton")
         self.eliminarBoton.setMinimumSize(QSize(0, 10))
-        self.eliminarBoton.setFont(font5)
-        icon22 = QIcon()
-        icon22.addFile(u":/feather/icons/feather/alert-triangle.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.eliminarBoton.setIcon(icon22)
+        self.eliminarBoton.setFont(font7)
+        icon23 = QIcon()
+        icon23.addFile(u":/feather/icons/feather/alert-triangle.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.eliminarBoton.setIcon(icon23)
         self.eliminarBoton.setIconSize(QSize(40, 40))
 
         self.gridLayout.addWidget(self.eliminarBoton, 6, 0, 1, 1, Qt.AlignHCenter)
@@ -1055,10 +1419,10 @@ class Ui_ventanaPrincipal(object):
         self.editarBoton = QPushButton(self.eliminarPagina)
         self.editarBoton.setObjectName(u"editarBoton")
         self.editarBoton.setMinimumSize(QSize(0, 10))
-        self.editarBoton.setFont(font5)
-        icon23 = QIcon()
-        icon23.addFile(u":/feather/icons/feather/refresh-cw.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.editarBoton.setIcon(icon23)
+        self.editarBoton.setFont(font7)
+        icon24 = QIcon()
+        icon24.addFile(u":/feather/icons/feather/refresh-cw.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.editarBoton.setIcon(icon24)
         self.editarBoton.setIconSize(QSize(40, 40))
 
         self.gridLayout.addWidget(self.editarBoton, 2, 0, 1, 1, Qt.AlignHCenter)
@@ -1088,7 +1452,7 @@ class Ui_ventanaPrincipal(object):
         self.verticalLayout_25.setObjectName(u"verticalLayout_25")
         self.label_17 = QLabel(self.emergenteNotificacionSubContenedor)
         self.label_17.setObjectName(u"label_17")
-        self.label_17.setFont(font5)
+        self.label_17.setFont(font7)
 
         self.verticalLayout_25.addWidget(self.label_17, 0, Qt.AlignHCenter)
 
@@ -1104,7 +1468,7 @@ class Ui_ventanaPrincipal(object):
         self.label_16.setObjectName(u"label_16")
         sizePolicy3.setHeightForWidth(self.label_16.sizePolicy().hasHeightForWidth())
         self.label_16.setSizePolicy(sizePolicy3)
-        self.label_16.setFont(font5)
+        self.label_16.setFont(font7)
         self.label_16.setAlignment(Qt.AlignCenter)
 
         self.horizontalLayout_9.addWidget(self.label_16)
@@ -1139,7 +1503,7 @@ class Ui_ventanaPrincipal(object):
         self.horizontalLayout_11.setObjectName(u"horizontalLayout_11")
         self.label_18 = QLabel(self.frame_12)
         self.label_18.setObjectName(u"label_18")
-        self.label_18.setFont(font5)
+        self.label_18.setFont(font7)
 
         self.horizontalLayout_11.addWidget(self.label_18)
 
@@ -1187,7 +1551,7 @@ class Ui_ventanaPrincipal(object):
         self.retranslateUi(ventanaPrincipal)
 
         self.centroPaginas.setCurrentIndex(0)
-        self.principalPaginas.setCurrentIndex(1)
+        self.principalPaginas.setCurrentIndex(0)
         self.derechoPaginas.setCurrentIndex(0)
 
 
@@ -1288,6 +1652,37 @@ class Ui_ventanaPrincipal(object):
         self.cerrarBoton.setToolTip(QCoreApplication.translate("ventanaPrincipal", u"Cerrar Ventana", None))
 #endif // QT_CONFIG(tooltip)
         self.cerrarBoton.setText("")
+        self.label_53.setText("")
+        self.label_34.setText(QCoreApplication.translate("ventanaPrincipal", u"INICIO", None))
+        self.label_35.setText(QCoreApplication.translate("ventanaPrincipal", u"2304000", None))
+        self.label_36.setText("")
+        self.label_37.setText(QCoreApplication.translate("ventanaPrincipal", u"Matriculados", None))
+        self.label_44.setText(QCoreApplication.translate("ventanaPrincipal", u"+340", None))
+        self.label_45.setText("")
+        self.label_46.setText(QCoreApplication.translate("ventanaPrincipal", u"Docentes", None))
+        self.label_47.setText(QCoreApplication.translate("ventanaPrincipal", u"450", None))
+        self.label_48.setText("")
+        self.label_49.setText(QCoreApplication.translate("ventanaPrincipal", u"Materias", None))
+        self.label_50.setText(QCoreApplication.translate("ventanaPrincipal", u"2304000", None))
+        self.label_51.setText("")
+        self.label_52.setText(QCoreApplication.translate("ventanaPrincipal", u"Secciones", None))
+        self.label_54.setText(QCoreApplication.translate("ventanaPrincipal", u"Ultimos Estudiantes", None))
+        self.masVer.setText(QCoreApplication.translate("ventanaPrincipal", u"Ver mas", None))
+        self.label_56.setText(QCoreApplication.translate("ventanaPrincipal", u"Grado", None))
+        self.label_57.setText(QCoreApplication.translate("ventanaPrincipal", u"Sexo", None))
+        self.label_55.setText(QCoreApplication.translate("ventanaPrincipal", u"Nacionalidad", None))
+        self.label_58.setText(QCoreApplication.translate("ventanaPrincipal", u"V", None))
+        self.label_60.setText(QCoreApplication.translate("ventanaPrincipal", u"F", None))
+        self.label_59.setText(QCoreApplication.translate("ventanaPrincipal", u"\"A\"", None))
+        self.label_62.setText(QCoreApplication.translate("ventanaPrincipal", u"\"C\"", None))
+        self.label_65.setText(QCoreApplication.translate("ventanaPrincipal", u"\"A\"", None))
+        self.label_64.setText(QCoreApplication.translate("ventanaPrincipal", u"V", None))
+        self.label_66.setText(QCoreApplication.translate("ventanaPrincipal", u"F", None))
+        self.label_63.setText(QCoreApplication.translate("ventanaPrincipal", u"M", None))
+        self.label_61.setText(QCoreApplication.translate("ventanaPrincipal", u"E", None))
+        self.label_67.setText(QCoreApplication.translate("ventanaPrincipal", u"V", None))
+        self.label_68.setText(QCoreApplication.translate("ventanaPrincipal", u"\"B\"", None))
+        self.label_69.setText(QCoreApplication.translate("ventanaPrincipal", u"F", None))
         self.label_11.setText(QCoreApplication.translate("ventanaPrincipal", u"ESTUDIANTES", None))
         ___qtablewidgetitem = self.tableWidget.horizontalHeaderItem(0)
         ___qtablewidgetitem.setText(QCoreApplication.translate("ventanaPrincipal", u"ID", None));
