@@ -23,7 +23,7 @@ class MainWindow(QMainWindow):
         #QMainWindow.__init__(self)
         self.ui = Ui_ventanaPrincipal()
         self.ui.setupUi(self)
-        ########################################################################
+        #####################################
         # Aplicando Estilos JSON
         loadJsonStyle(self, self.ui, jsonFiles = {
             "json-styles/style.json"

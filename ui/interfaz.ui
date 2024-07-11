@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1161</width>
+    <width>1185</width>
     <height>829</height>
    </rect>
   </property>
@@ -685,6 +685,18 @@
        <item>
         <widget class="QWidget" name="cabeceraContenedor" native="true">
          <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <property name="leftMargin">
+           <number>20</number>
+          </property>
+          <property name="topMargin">
+           <number>5</number>
+          </property>
+          <property name="rightMargin">
+           <number>5</number>
+          </property>
+          <property name="bottomMargin">
+           <number>5</number>
+          </property>
           <item>
            <widget class="QFrame" name="frame_6">
             <property name="frameShape">
@@ -695,7 +707,7 @@
               <number>10</number>
              </property>
              <property name="leftMargin">
-              <number>5</number>
+              <number>10</number>
              </property>
              <property name="topMargin">
               <number>0</number>
@@ -729,13 +741,13 @@
               <widget class="QLabel" name="label_6">
                <property name="font">
                 <font>
-                 <pointsize>12</pointsize>
+                 <pointsize>14</pointsize>
                  <weight>75</weight>
                  <bold>true</bold>
                 </font>
                </property>
                <property name="text">
-                <string>Complejo Educativo Andres Bello</string>
+                <string>COMPLEJO EDUCATIVO ANDRES BELLO</string>
                </property>
               </widget>
              </item>
@@ -815,7 +827,7 @@
             </property>
            </spacer>
           </item>
-          <item alignment="Qt::AlignVCenter">
+          <item alignment="Qt::AlignRight|Qt::AlignVCenter">
            <widget class="QFrame" name="frame_15">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
@@ -887,14 +899,14 @@
             </layout>
            </widget>
           </item>
-          <item>
+          <item alignment="Qt::AlignRight|Qt::AlignVCenter">
            <widget class="QFrame" name="frame_7">
             <property name="frameShape">
              <enum>QFrame::NoFrame</enum>
             </property>
             <layout class="QHBoxLayout" name="horizontalLayout_5">
              <property name="spacing">
-              <number>6</number>
+              <number>0</number>
              </property>
              <property name="leftMargin">
               <number>0</number>
@@ -903,7 +915,7 @@
               <number>0</number>
              </property>
              <property name="rightMargin">
-              <number>0</number>
+              <number>10</number>
              </property>
              <property name="bottomMargin">
               <number>0</number>
@@ -931,19 +943,6 @@
             </layout>
            </widget>
           </item>
-          <item>
-           <spacer name="horizontalSpacer_2">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>40</width>
-              <height>20</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
           <item alignment="Qt::AlignRight|Qt::AlignTop">
            <widget class="QFrame" name="frame_8">
             <property name="frameShape">
@@ -954,7 +953,7 @@
               <number>6</number>
              </property>
              <property name="leftMargin">
-              <number>0</number>
+              <number>20</number>
              </property>
              <property name="topMargin">
               <number>0</number>
@@ -1124,8 +1123,23 @@
                    <layout class="QVBoxLayout" name="verticalLayout_18">
                     <item>
                      <widget class="QWidget" name="widget_7" native="true">
-                      <layout class="QVBoxLayout" name="verticalLayout_32">
-                       <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_21">
+                       <property name="spacing">
+                        <number>0</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="rightMargin">
+                        <number>0</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>0</number>
+                       </property>
+                       <item alignment="Qt::AlignHCenter">
                         <widget class="QFrame" name="frame_18">
                          <property name="frameShape">
                           <enum>QFrame::StyledPanel</enum>
@@ -1134,6 +1148,21 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QHBoxLayout" name="horizontalLayout_26">
+                          <property name="spacing">
+                           <number>0</number>
+                          </property>
+                          <property name="leftMargin">
+                           <number>10</number>
+                          </property>
+                          <property name="topMargin">
+                           <number>10</number>
+                          </property>
+                          <property name="rightMargin">
+                           <number>10</number>
+                          </property>
+                          <property name="bottomMargin">
+                           <number>10</number>
+                          </property>
                           <item>
                            <widget class="QLabel" name="label_53">
                             <property name="maximumSize">
@@ -1151,6 +1180,9 @@
                             <property name="scaledContents">
                              <bool>true</bool>
                             </property>
+                            <property name="alignment">
+                             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                            </property>
                            </widget>
                           </item>
                           <item>
@@ -1163,11 +1195,17 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>12</pointsize>
+                              <pointsize>13</pointsize>
                              </font>
+                            </property>
+                            <property name="layoutDirection">
+                             <enum>Qt::LeftToRight</enum>
                             </property>
                             <property name="text">
                              <string>INICIO</string>
+                            </property>
+                            <property name="alignment">
+                             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
                             </property>
                            </widget>
                           </item>
@@ -1210,6 +1248,9 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_29">
+                          <property name="leftMargin">
+                           <number>10</number>
+                          </property>
                           <item>
                            <widget class="QFrame" name="frame_19">
                             <property name="frameShape">
@@ -1507,9 +1548,27 @@
                        </sizepolicy>
                       </property>
                       <layout class="QHBoxLayout" name="horizontalLayout_25">
+                       <property name="spacing">
+                        <number>20</number>
+                       </property>
                        <item>
                         <widget class="QWidget" name="widget_8" native="true">
                          <layout class="QVBoxLayout" name="verticalLayout_34">
+                          <property name="spacing">
+                           <number>0</number>
+                          </property>
+                          <property name="leftMargin">
+                           <number>0</number>
+                          </property>
+                          <property name="topMargin">
+                           <number>0</number>
+                          </property>
+                          <property name="rightMargin">
+                           <number>0</number>
+                          </property>
+                          <property name="bottomMargin">
+                           <number>0</number>
+                          </property>
                           <item alignment="Qt::AlignTop">
                            <widget class="QFrame" name="frame_25">
                             <property name="frameShape">
@@ -1523,7 +1582,7 @@
                               <widget class="QLabel" name="label_54">
                                <property name="font">
                                 <font>
-                                 <pointsize>13</pointsize>
+                                 <pointsize>14</pointsize>
                                  <weight>75</weight>
                                  <bold>true</bold>
                                 </font>
@@ -1572,7 +1631,7 @@
                               <widget class="QLabel" name="label_56">
                                <property name="font">
                                 <font>
-                                 <pointsize>11</pointsize>
+                                 <pointsize>12</pointsize>
                                  <weight>75</weight>
                                  <bold>true</bold>
                                 </font>
@@ -1586,7 +1645,7 @@
                               <widget class="QLabel" name="label_57">
                                <property name="font">
                                 <font>
-                                 <pointsize>11</pointsize>
+                                 <pointsize>12</pointsize>
                                  <weight>75</weight>
                                  <bold>true</bold>
                                 </font>
@@ -1600,7 +1659,7 @@
                               <widget class="QLabel" name="label_55">
                                <property name="font">
                                 <font>
-                                 <pointsize>11</pointsize>
+                                 <pointsize>12</pointsize>
                                  <weight>75</weight>
                                  <bold>true</bold>
                                 </font>
@@ -1776,6 +1835,21 @@
                        <item>
                         <widget class="QWidget" name="widget_9" native="true">
                          <layout class="QVBoxLayout" name="verticalLayout_30">
+                          <property name="spacing">
+                           <number>0</number>
+                          </property>
+                          <property name="leftMargin">
+                           <number>0</number>
+                          </property>
+                          <property name="topMargin">
+                           <number>0</number>
+                          </property>
+                          <property name="rightMargin">
+                           <number>0</number>
+                          </property>
+                          <property name="bottomMargin">
+                           <number>0</number>
+                          </property>
                           <item alignment="Qt::AlignTop">
                            <widget class="QFrame" name="frame_27">
                             <property name="font">
@@ -1794,7 +1868,7 @@
                               <widget class="QLabel" name="label_70">
                                <property name="font">
                                 <font>
-                                 <pointsize>13</pointsize>
+                                 <pointsize>14</pointsize>
                                  <weight>75</weight>
                                  <bold>true</bold>
                                 </font>
@@ -3478,7 +3552,7 @@
            <number>0</number>
           </property>
           <property name="leftMargin">
-           <number>0</number>
+           <number>20</number>
           </property>
           <property name="topMargin">
            <number>0</number>
@@ -3490,29 +3564,6 @@
            <number>0</number>
           </property>
           <item alignment="Qt::AlignLeft">
-           <widget class="QFrame" name="frame_12">
-            <property name="frameShape">
-             <enum>QFrame::NoFrame</enum>
-            </property>
-            <layout class="QHBoxLayout" name="horizontalLayout_11">
-             <item>
-              <widget class="QLabel" name="label_18">
-               <property name="font">
-                <font>
-                 <pointsize>11</pointsize>
-                 <weight>75</weight>
-                 <bold>true</bold>
-                </font>
-               </property>
-               <property name="text">
-                <string>Creado por: Yoel Rivero UBV</string>
-               </property>
-              </widget>
-             </item>
-            </layout>
-           </widget>
-          </item>
-          <item alignment="Qt::AlignHCenter">
            <widget class="QFrame" name="frame_16">
             <property name="frameShape">
              <enum>QFrame::StyledPanel</enum>
@@ -3541,6 +3592,29 @@
                </property>
                <property name="textVisible">
                 <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignRight">
+           <widget class="QFrame" name="frame_12">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_11">
+             <item>
+              <widget class="QLabel" name="label_18">
+               <property name="font">
+                <font>
+                 <pointsize>11</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Creado por: Yoel Rivero UBV</string>
                </property>
               </widget>
              </item>

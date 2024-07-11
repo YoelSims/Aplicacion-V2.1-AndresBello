@@ -76,7 +76,7 @@
 						"shadow":[
 							{
 								"color": "#f00",
-								"blurRadius": 6,
+								"blurRadius": 7,
 								"xOffset": 3,
 								"yOffset": 0
 							}

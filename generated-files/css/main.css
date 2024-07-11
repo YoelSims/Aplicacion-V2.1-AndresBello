@@ -1698,6 +1698,14 @@ QPushButton:hover {
 QPushButton:pressed {
   color: #0F9696; }
 
+#cerrarBoton:hover {
+  background-color: #ff0;
+  color: #3FABAB; }
+
+#cerrarBoton:pressed {
+  background-color: #f00;
+  color: #0F9696; }
+
 #cerrarMenuDerecho {
   text-align: center; }
 
@@ -1741,10 +1749,14 @@ QPushButton:pressed {
     background-color: transparent; }
 
 #cabeceraContenedor {
-  border-bottom: 1px solid #D8D8D8; }
+  border-bottom: 2px solid #9FD5D5;
+  border-bottom-left-radius: 10;
+  border-bottom-right-radius: 10; }
 
 #pieContenedor {
-  border-top: 6px solid #E5E5E5; }
+  border-top: 2px solid #9FD5D5;
+  border-top-left-radius: 5;
+  border-top-right-radius: 5; }
 
 QLineEdit {
   padding: 5px 10px;
