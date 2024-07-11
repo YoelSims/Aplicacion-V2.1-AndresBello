@@ -1715,18 +1715,18 @@ QPushButton:pressed {
   background-color: #021924;
   border-radius: 10px; }
 
-#searchInpCont {
+#frame_15 {
   border-right: 1px solid #000c11;
   border-radius: 0; }
-  #searchInpCont * {
+  #frame_15 * {
     border: none;
     background-color: transparent;
     border-radius: 2px; }
-  #searchInpCont QLineEdit {
+  #frame_15 QLineEdit {
     border-right: 1px solid #000c11; }
-  #searchInpCont QPushButton:hover {
+  #frame_15 QPushButton:hover {
     background-color: #02d3c1; }
-  #searchInpCont:hover {
+  #frame_15:hover {
     background-color: #01131c; }
 
 #Frame, Frame {
@@ -1765,4 +1765,23 @@ QLineEdit {
 QCustomQToolTip {
   background-color: #017E73;
   color: #d9dde0;
+  border-radius: 10px; }
+
+#carta1, #carta2, #carta3, #carta4 {
+  background-color: #fff; }
+
+#busquedaTexto {
+  background: transparent; }
+
+#frame_15 {
+  border-radius: 10px;
+  border: 2px solid #f00; }
+
+#masVer, #verMas2 {
+  background-color: #f00;
+  color: #fff;
+  border-radius: 10px; }
+
+#widget_8, #widget_9 {
+  background-color: #fFF;
   border-radius: 10px; }

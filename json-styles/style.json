@@ -1,4 +1,5 @@
-{	"QtBinding": "PySide6",	
+{	
+	"QtBinding": "PySide6",	
 	"ShowLogs": true,
 	"LiveCompileQss": true,
 	"CheckForMissingicons": false,
@@ -343,5 +344,34 @@
 				"NotActive": "transparent;"
 			}]
 		}
-	]	
+	],
+	"QCard": [{
+		"cards": [
+				"carta1",
+				"carta2",
+				"carta3",
+				"carta4"
+			],
+			"shadow":[{
+				"color": "#000",
+				"blurRadius": 5,
+				"xOffset": 0,
+				"yOffset": 0
+			}]
+		},
+		{
+		"cards": [
+			"widget_8",
+			"widget_9",
+			"card7",
+			"card8"
+		],
+		"shadow":[{
+				"color": "#555",
+				"blurRadius": 20,
+				"xOffset": 0,
+				"yOffset": 0
+			}]
+		}
+	]
 }

@@ -587,7 +587,7 @@ class Ui_ventanaPrincipal(object):
         self.horizontalLayout_17 = QHBoxLayout(self.cartasContenedor)
         self.horizontalLayout_17.setSpacing(20)
         self.horizontalLayout_17.setObjectName(u"horizontalLayout_17")
-        self.horizontalLayout_17.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_17.setContentsMargins(10, 10, 10, 10)
         self.carta1 = QFrame(self.cartasContenedor)
         self.carta1.setObjectName(u"carta1")
         self.carta1.setMinimumSize(QSize(160, 0))
@@ -775,7 +775,7 @@ class Ui_ventanaPrincipal(object):
         font6.setBold(True)
         self.label_54.setFont(font6)
 
-        self.horizontalLayout_27.addWidget(self.label_54)
+        self.horizontalLayout_27.addWidget(self.label_54, 0, Qt.AlignLeft)
 
         self.masVer = QPushButton(self.frame_25)
         self.masVer.setObjectName(u"masVer")
@@ -788,7 +788,7 @@ class Ui_ventanaPrincipal(object):
         self.horizontalLayout_27.addWidget(self.masVer, 0, Qt.AlignRight)
 
 
-        self.verticalLayout_34.addWidget(self.frame_25)
+        self.verticalLayout_34.addWidget(self.frame_25, 0, Qt.AlignTop)
 
         self.frame_26 = QFrame(self.widget_8)
         self.frame_26.setObjectName(u"frame_26")
@@ -914,7 +914,7 @@ class Ui_ventanaPrincipal(object):
         self.label_70.setObjectName(u"label_70")
         self.label_70.setFont(font6)
 
-        self.horizontalLayout_28.addWidget(self.label_70)
+        self.horizontalLayout_28.addWidget(self.label_70, 0, Qt.AlignLeft)
 
         self.verMas2 = QPushButton(self.frame_27)
         self.verMas2.setObjectName(u"verMas2")
@@ -923,10 +923,10 @@ class Ui_ventanaPrincipal(object):
         self.verMas2.setIcon(icon22)
         self.verMas2.setIconSize(QSize(24, 24))
 
-        self.horizontalLayout_28.addWidget(self.verMas2)
+        self.horizontalLayout_28.addWidget(self.verMas2, 0, Qt.AlignRight)
 
 
-        self.verticalLayout_30.addWidget(self.frame_27)
+        self.verticalLayout_30.addWidget(self.frame_27, 0, Qt.AlignTop)
 
         self.frame_28 = QFrame(self.widget_9)
         self.frame_28.setObjectName(u"frame_28")
@@ -1129,7 +1129,7 @@ class Ui_ventanaPrincipal(object):
         self.verticalLayout_30.addWidget(self.frame_20)
 
 
-        self.horizontalLayout_25.addWidget(self.widget_9, 0, Qt.AlignRight)
+        self.horizontalLayout_25.addWidget(self.widget_9)
 
 
         self.verticalLayout_18.addWidget(self.listadoVer)

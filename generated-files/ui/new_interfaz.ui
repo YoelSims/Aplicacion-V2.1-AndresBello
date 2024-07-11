@@ -1184,16 +1184,16 @@
                         <number>20</number>
                        </property>
                        <property name="leftMargin">
-                        <number>0</number>
+                        <number>10</number>
                        </property>
                        <property name="topMargin">
-                        <number>0</number>
+                        <number>10</number>
                        </property>
                        <property name="rightMargin">
-                        <number>0</number>
+                        <number>10</number>
                        </property>
                        <property name="bottomMargin">
-                        <number>0</number>
+                        <number>10</number>
                        </property>
                        <item>
                         <widget class="QFrame" name="carta1">
@@ -1510,7 +1510,7 @@
                        <item>
                         <widget class="QWidget" name="widget_8" native="true">
                          <layout class="QVBoxLayout" name="verticalLayout_34">
-                          <item>
+                          <item alignment="Qt::AlignTop">
                            <widget class="QFrame" name="frame_25">
                             <property name="frameShape">
                              <enum>QFrame::StyledPanel</enum>
@@ -1519,7 +1519,7 @@
                              <enum>QFrame::Raised</enum>
                             </property>
                             <layout class="QHBoxLayout" name="horizontalLayout_27">
-                             <item>
+                             <item alignment="Qt::AlignLeft">
                               <widget class="QLabel" name="label_54">
                                <property name="font">
                                 <font>
@@ -1773,10 +1773,10 @@
                          </layout>
                         </widget>
                        </item>
-                       <item alignment="Qt::AlignRight">
+                       <item>
                         <widget class="QWidget" name="widget_9" native="true">
                          <layout class="QVBoxLayout" name="verticalLayout_30">
-                          <item>
+                          <item alignment="Qt::AlignTop">
                            <widget class="QFrame" name="frame_27">
                             <property name="font">
                              <font>
@@ -1790,7 +1790,7 @@
                              <enum>QFrame::Raised</enum>
                             </property>
                             <layout class="QHBoxLayout" name="horizontalLayout_28">
-                             <item>
+                             <item alignment="Qt::AlignLeft">
                               <widget class="QLabel" name="label_70">
                                <property name="font">
                                 <font>
@@ -1804,7 +1804,7 @@
                                </property>
                               </widget>
                              </item>
-                             <item>
+                             <item alignment="Qt::AlignRight">
                               <widget class="QPushButton" name="verMas2">
                                <property name="text">
                                 <string>Ver Mas</string>
