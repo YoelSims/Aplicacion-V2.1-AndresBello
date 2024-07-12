@@ -4,7 +4,7 @@ import sys
 #Importando Interfaz
 from src.ui_interfaz import *
 #Importacion de Modulos Personalizados Widgets
-#from Custom_Widgets import *
+from Custom_Widgets import *
 #from Custom_Widgets.QAppSettings import QAppSettings
 from Custom_Widgets.QCustomQToolTip import QCustomQToolTipFilter
 ########################################################################
@@ -32,13 +32,14 @@ class MainWindow(QMainWindow):
             "json-styles/style.json"
         }) 
         ###########################
+        self.create_percentage_bar_chart()
+
         #Mostrar Ventana
         self.show()
         #Aplicar Cambios
         QAppSettings.updateAppSettings(self)
 
         ######sizegrip########
-        QSizeGrip = (self.ui.frame_21)
         # Iniciar Base de Datos y Generar Tablas
         init_db()
         #Llamando las Funciones
@@ -50,6 +51,31 @@ class MainWindow(QMainWindow):
         #Mostrar tablas inicialmente
         self.app_functions.display_users()
 
+    def create_percentage_bar_chart(self):
+        #########
+        firstname = {}
+        lastname = {}
+
+        ####### Obtener csv filas contador
+        rowCount = 0
+
+        ###Leer los datos del csv
+        with open('csv/Estudiantes.csv', encoding='utf-8') as csvfile:
+            csvReader = csv.reader(csvfile, delimiter=';')
+            #print(csvReader)
+            ##Iterar a trabes de las filas del csv
+            for row in csvReader:
+                print(row)
+                #Ignorar el primer campo del csv fila
+                if rowCount > 0:
+                    #Agregar datos al json
+                    if not row[2] in firstname:
+                        firstname[row[2]] = []
+                        firstname[row[2]].append({"name": row[0], "lastname": row[4]})
+                    else:
+                        firstname[row[2]].append({"name": row[0], "lastname": row[4]})
+                #Incrementar el contador
+                rowCount += 1
         
         
 # Ejecutar Aplicacion
@@ -65,19 +91,3 @@ if __name__ == "__main__":
     sys.exit(app.exec_())
 
 
-"""def create_percentage_bar_chart(self):
-    #########
-    firstname = {}
-    lastname = {}
-
-    ####### Obtener csv filas contador
-    rowCount = 0
-
-    ###Leer los datos del csv
-    with open('csv/Estudiantes.csv') as csvfile:
-        csvReader = csv.reader(csvfile, delimiter=',')
-        ##Iterar a trabes de las filas del csv
-        for row in csvReader:
-            #Ignorar el primer campo del csv fila
-            if rowCount > 0:
-                if not row[2] in """

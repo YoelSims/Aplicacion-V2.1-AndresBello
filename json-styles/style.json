@@ -222,7 +222,7 @@
 						{
 							"active": true,
 							"duration":350,
-							"easingCurve": "OutBack"
+							"easingCurve": "Linear"
 						}
 					],
 					"slide":[
@@ -230,7 +230,7 @@
 							"active":true,
 							"duration": 350,
 							"direction": "horizontal",
-							"easingCurve": "Linear"
+							"easingCurve": "OutBack"
 						}
 					]
 				}
@@ -328,7 +328,6 @@
 				"documentoBoton",
 				"gradosBoton"
 			],
-			"ActiveButton": "inicioBoton",
 			"Style":[{
 				"Active": "border-left: 2px solid #f00;font-weight;bold;",
 				"NotActive": "transparent;"
@@ -351,23 +350,11 @@
 				"carta1",
 				"carta2",
 				"carta3",
-				"carta4"
+				"carta4",
+				"widget_8",
+				"widget_9"
 			],
 			"shadow":[{
-				"color": "#555",
-				"blurRadius": 20,
-				"xOffset": 0,
-				"yOffset": 0
-			}]
-		},
-		{
-		"cards": [
-			"widget_8",
-			"widget_9",
-			"card7",
-			"card8"
-		],
-		"shadow":[{
 				"color": "#555",
 				"blurRadius": 20,
 				"xOffset": 0,

@@ -27,7 +27,7 @@ class Ui_ventanaPrincipal(object):
     def setupUi(self, ventanaPrincipal):
         if not ventanaPrincipal.objectName():
             ventanaPrincipal.setObjectName(u"ventanaPrincipal")
-        ventanaPrincipal.resize(1226, 830)
+        ventanaPrincipal.resize(1179, 782)
         ventanaPrincipal.setMinimumSize(QSize(0, 0))
         icon = QIcon()
         icon.addFile(u":/feather/icons/feather/grid.png", QSize(), QIcon.Normal, QIcon.Off)
