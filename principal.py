@@ -33,6 +33,9 @@ class MainWindow(QMainWindow):
         self.show()
         #Aplicar Cambios
         QAppSettings.updateAppSettings(self)
+
+        ######sizegrip########
+        QSizeGrip = (self.ui.frame_21)
         # Iniciar Base de Datos y Generar Tablas
         init_db()
         #Llamando las Funciones
@@ -53,7 +56,6 @@ if __name__ == "__main__":
     #TipOverlay Personalizados
     eventoTips = QCustomQToolTipFilter(tailPosition="auto", duration=700, icon="Qss/icons/ff0000/feather/search.png")
     app.installEventFilter(eventoTips)
-
     ##########################
     main_window = MainWindow()
     main_window.show()

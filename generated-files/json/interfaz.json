@@ -1,4 +1,10 @@
 {
+  "QMainWindow": [
+    {
+      "name": "ventanaPrincipal",
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/grid.png"
+    }
+  ],
   "QPushButton": [
     {
       "name": "menuBoton",
