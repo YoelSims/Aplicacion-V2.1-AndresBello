@@ -1,18 +1,19 @@
 import os
 import sys
 #from PyQt5.QtWidgets import QApplication, QMainWindow
+#Importando Interfaz
 from src.ui_interfaz import *
-########################################################################
-# Importacion de Modulos Personalizados Widgets
+#Importacion de Modulos Personalizados Widgets
 #from Custom_Widgets import *
 #from Custom_Widgets.QAppSettings import QAppSettings
-from Custom_Widgets.QCustomQToolTip import QCustomQToolTipFilter, QCustomQToolTip
+from Custom_Widgets.QCustomQToolTip import QCustomQToolTipFilter
 ########################################################################
 from functools import partial
 import csv
 
 #Importacion de Funciones
 from Funciones.funcionesgeneral import *
+#Importacion Iniciar Base de Datos
 from BaseDatos.basededatos import init_db
 
 #Custom_Widgets --convert-ui ui --qt-library PySide6

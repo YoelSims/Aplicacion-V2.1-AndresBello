@@ -328,6 +328,7 @@
 				"documentoBoton",
 				"gradosBoton"
 			],
+			"ActiveButton": "inicioBoton",
 			"Style":[{
 				"Active": "border-left: 2px solid #f00;font-weight;bold;",
 				"NotActive": "transparent;"
