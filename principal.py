@@ -8,6 +8,8 @@ from src.ui_interfaz import *
 #from Custom_Widgets.QAppSettings import QAppSettings
 from Custom_Widgets.QCustomQToolTip import QCustomQToolTipFilter, QCustomQToolTip
 ########################################################################
+from functools import partial
+import csv
 
 #Importacion de Funciones
 from Funciones.funcionesgeneral import *
@@ -60,3 +62,21 @@ if __name__ == "__main__":
     main_window = MainWindow()
     main_window.show()
     sys.exit(app.exec_())
+
+
+"""def create_percentage_bar_chart(self):
+    #########
+    firstname = {}
+    lastname = {}
+
+    ####### Obtener csv filas contador
+    rowCount = 0
+
+    ###Leer los datos del csv
+    with open('csv/Estudiantes.csv') as csvfile:
+        csvReader = csv.reader(csvfile, delimiter=',')
+        ##Iterar a trabes de las filas del csv
+        for row in csvReader:
+            #Ignorar el primer campo del csv fila
+            if rowCount > 0:
+                if not row[2] in """
