@@ -11,6 +11,14 @@
       "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/solid/align-justify.png"
     },
     {
+      "name": "pushButton_5",
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/arrow-down.png"
+    },
+    {
+      "name": "pushButton_4",
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/material_design/add_home.png"
+    },
+    {
       "name": "inicioBoton",
       "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/home.png"
     },
@@ -57,6 +65,10 @@
     {
       "name": "cerrarMenuCentro",
       "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/regular/circle-xmark.png"
+    },
+    {
+      "name": "pushButton",
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/arrow-up-circle.png"
     },
     {
       "name": "notificacionBoton",
@@ -117,6 +129,13 @@
     {
       "name": "cerrarNotificacion",
       "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/font_awesome/regular/circle-xmark.png"
+    }
+  ],
+  "QWidget": [
+    {
+      "QToolBox": "toolBox",
+      "name": "page",
+      "icon": "../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/icons/feather/home.png"
     }
   ],
   "QLabel": [
