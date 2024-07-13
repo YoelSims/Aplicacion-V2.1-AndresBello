@@ -1685,6 +1685,11 @@ QMainWindow, #centralContenedor {
   text-align: left;
   padding: 5px, 10px 3px; }
 
+#pushButton_7 {
+  padding: 0;
+  margin: 0;
+  border: none; }
+
 #menuBoton {
   text-align: center; }
 

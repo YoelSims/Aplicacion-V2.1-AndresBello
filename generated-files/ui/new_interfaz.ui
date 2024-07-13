@@ -69,12 +69,6 @@
        </property>
        <item>
         <widget class="QWidget" name="subMenuContenedorIzquierdo" native="true">
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>0</height>
-          </size>
-         </property>
          <layout class="QVBoxLayout" name="verticalLayout_2">
           <property name="spacing">
            <number>0</number>
@@ -183,88 +177,6 @@
              <property name="bottomMargin">
               <number>10</number>
              </property>
-             <item>
-              <widget class="QWidget" name="widget_10" native="true">
-               <layout class="QHBoxLayout" name="horizontalLayout_34">
-                <property name="spacing">
-                 <number>0</number>
-                </property>
-                <property name="leftMargin">
-                 <number>25</number>
-                </property>
-                <property name="topMargin">
-                 <number>0</number>
-                </property>
-                <property name="rightMargin">
-                 <number>0</number>
-                </property>
-                <property name="bottomMargin">
-                 <number>0</number>
-                </property>
-                <item>
-                 <widget class="QFrame" name="frame_34">
-                  <property name="frameShape">
-                   <enum>QFrame::StyledPanel</enum>
-                  </property>
-                  <property name="frameShadow">
-                   <enum>QFrame::Raised</enum>
-                  </property>
-                  <widget class="QPushButton" name="pushButton_5">
-                   <property name="geometry">
-                    <rect>
-                     <x>75</x>
-                     <y>16</y>
-                     <width>25</width>
-                     <height>33</height>
-                    </rect>
-                   </property>
-                   <property name="text">
-                    <string />
-                   </property>
-                   <property name="icon">
-                    <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
-                     <normaloff>:/feather/icons/feather/arrow-down.png</normaloff>:/feather/icons/feather/arrow-down.png</iconset>
-                   </property>
-                  </widget>
-                  <widget class="QPushButton" name="pushButton_4">
-                   <property name="geometry">
-                    <rect>
-                     <x>0</x>
-                     <y>9</y>
-                     <width>75</width>
-                     <height>47</height>
-                    </rect>
-                   </property>
-                   <property name="text">
-                    <string>INICIO</string>
-                   </property>
-                   <property name="icon">
-                    <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
-                     <normaloff>:/material_design/icons/material_design/add_home.png</normaloff>:/material_design/icons/material_design/add_home.png</iconset>
-                   </property>
-                   <property name="iconSize">
-                    <size>
-                     <width>32</width>
-                     <height>32</height>
-                    </size>
-                   </property>
-                  </widget>
-                 </widget>
-                </item>
-               </layout>
-              </widget>
-             </item>
-             <item>
-              <widget class="QFrame" name="frame_33">
-               <property name="frameShape">
-                <enum>QFrame::StyledPanel</enum>
-               </property>
-               <property name="frameShadow">
-                <enum>QFrame::Raised</enum>
-               </property>
-               <layout class="QHBoxLayout" name="horizontalLayout_32" />
-              </widget>
-             </item>
              <item>
               <widget class="QPushButton" name="inicioBoton">
                <property name="sizePolicy">
@@ -402,6 +314,19 @@
                 </size>
                </property>
               </widget>
+             </item>
+             <item>
+              <spacer name="verticalSpacer">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
              </item>
             </layout>
            </widget>
@@ -625,9 +550,57 @@
            <number>0</number>
           </property>
           <item>
+           <widget class="QFrame" name="frame_5">
+            <property name="frameShape">
+             <enum>QFrame::NoFrame</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <property name="leftMargin">
+              <number>5</number>
+             </property>
+             <property name="topMargin">
+              <number>5</number>
+             </property>
+             <property name="rightMargin">
+              <number>5</number>
+             </property>
+             <property name="bottomMargin">
+              <number>5</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label">
+               <property name="text">
+                <string>Mas cositas</string>
+               </property>
+              </widget>
+             </item>
+             <item alignment="Qt::AlignRight">
+              <widget class="QPushButton" name="cerrarMenuCentro">
+               <property name="toolTip">
+                <string>Cerrar Menu</string>
+               </property>
+               <property name="text">
+                <string />
+               </property>
+               <property name="icon">
+                <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
+                 <normaloff>:/font_awesome_regular/icons/font_awesome/regular/circle-xmark.png</normaloff>:/font_awesome_regular/icons/font_awesome/regular/circle-xmark.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>24</width>
+                 <height>24</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
            <widget class="QCustomQStackedWidget" name="centroPaginas">
             <property name="currentIndex">
-             <number>1</number>
+             <number>0</number>
             </property>
             <widget class="QWidget" name="ajustePagina">
              <layout class="QVBoxLayout" name="verticalLayout_9">
@@ -681,176 +654,7 @@
              </layout>
             </widget>
             <widget class="QWidget" name="acercaDePagina">
-             <property name="layoutDirection">
-              <enum>Qt::LeftToRight</enum>
-             </property>
              <layout class="QVBoxLayout" name="verticalLayout_10">
-              <item>
-               <widget class="QFrame" name="frame_5">
-                <property name="frameShape">
-                 <enum>QFrame::NoFrame</enum>
-                </property>
-                <layout class="QHBoxLayout" name="horizontalLayout_2">
-                 <property name="leftMargin">
-                  <number>5</number>
-                 </property>
-                 <property name="topMargin">
-                  <number>5</number>
-                 </property>
-                 <property name="rightMargin">
-                  <number>5</number>
-                 </property>
-                 <property name="bottomMargin">
-                  <number>5</number>
-                 </property>
-                 <item>
-                  <widget class="QLabel" name="label">
-                   <property name="layoutDirection">
-                    <enum>Qt::LeftToRight</enum>
-                   </property>
-                   <property name="text">
-                    <string>Mas cositas</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item alignment="Qt::AlignRight">
-                  <widget class="QPushButton" name="cerrarMenuCentro">
-                   <property name="toolTip">
-                    <string>Cerrar Menu</string>
-                   </property>
-                   <property name="text">
-                    <string />
-                   </property>
-                   <property name="icon">
-                    <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
-                     <normaloff>:/font_awesome_regular/icons/font_awesome/regular/circle-xmark.png</normaloff>:/font_awesome_regular/icons/font_awesome/regular/circle-xmark.png</iconset>
-                   </property>
-                   <property name="iconSize">
-                    <size>
-                     <width>24</width>
-                     <height>24</height>
-                    </size>
-                   </property>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-              <item alignment="Qt::AlignLeft">
-               <widget class="QFrame" name="frame_31">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="layoutDirection">
-                 <enum>Qt::LeftToRight</enum>
-                </property>
-                <property name="frameShape">
-                 <enum>QFrame::StyledPanel</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <layout class="QVBoxLayout" name="verticalLayout_32">
-                 <item alignment="Qt::AlignLeft">
-                  <widget class="QToolBox" name="toolBox">
-                   <property name="layoutDirection">
-                    <enum>Qt::LeftToRight</enum>
-                   </property>
-                   <property name="currentIndex">
-                    <number>0</number>
-                   </property>
-                   <property name="tabSpacing">
-                    <number>6</number>
-                   </property>
-                   <widget class="QWidget" name="page">
-                    <property name="geometry">
-                     <rect>
-                      <x>0</x>
-                      <y>0</y>
-                      <width>209</width>
-                      <height>584</height>
-                     </rect>
-                    </property>
-                    <property name="layoutDirection">
-                     <enum>Qt::LeftToRight</enum>
-                    </property>
-                    <attribute name="icon">
-                     <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
-                      <normaloff>:/feather/icons/feather/home.png</normaloff>:/feather/icons/feather/home.png</iconset>
-                    </attribute>
-                    <attribute name="label">
-                     <string />
-                    </attribute>
-                    <layout class="QVBoxLayout" name="verticalLayout_35">
-                     <item>
-                      <widget class="QFrame" name="frame_32">
-                       <property name="layoutDirection">
-                        <enum>Qt::LeftToRight</enum>
-                       </property>
-                       <property name="frameShape">
-                        <enum>QFrame::StyledPanel</enum>
-                       </property>
-                       <property name="frameShadow">
-                        <enum>QFrame::Raised</enum>
-                       </property>
-                       <layout class="QVBoxLayout" name="verticalLayout_38">
-                        <item>
-                         <widget class="QPushButton" name="pushButton">
-                          <property name="text">
-                           <string>Estudiantes Informacion</string>
-                          </property>
-                          <property name="icon">
-                           <iconset resource="../../../../Desktop/Proyecto Andres Bello/Aplicacion V2.1-AndresBello/Qss/icons/_icons.qrc">
-                            <normaloff>:/feather/icons/feather/arrow-up-circle.png</normaloff>:/feather/icons/feather/arrow-up-circle.png</iconset>
-                          </property>
-                          <property name="iconSize">
-                           <size>
-                            <width>24</width>
-                            <height>24</height>
-                           </size>
-                          </property>
-                         </widget>
-                        </item>
-                        <item>
-                         <widget class="QPushButton" name="pushButton_2">
-                          <property name="text">
-                           <string>PushButton</string>
-                          </property>
-                         </widget>
-                        </item>
-                        <item>
-                         <widget class="QPushButton" name="pushButton_3">
-                          <property name="text">
-                           <string>PushButton</string>
-                          </property>
-                         </widget>
-                        </item>
-                       </layout>
-                      </widget>
-                     </item>
-                    </layout>
-                   </widget>
-                   <widget class="QWidget" name="page_2">
-                    <property name="geometry">
-                     <rect>
-                      <x>0</x>
-                      <y>0</y>
-                      <width>77</width>
-                      <height>603</height>
-                     </rect>
-                    </property>
-                    <attribute name="label">
-                     <string>Page 2</string>
-                    </attribute>
-                   </widget>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
               <item>
                <widget class="QLabel" name="label_3">
                 <property name="font">

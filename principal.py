@@ -4,8 +4,10 @@ import sys
 #Importando Interfaz
 from src.ui_interfaz import *
 #Importacion de Modulos Personalizados Widgets
-from Custom_Widgets import *
+#from Custom_Widgets import *
 #from Custom_Widgets.QAppSettings import QAppSettings
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QPushButton, QGraphicsDropShadowEffect
+from PySide6.QtGui import QColor
 from Custom_Widgets.QCustomQToolTip import QCustomQToolTipFilter
 ########################################################################
 from functools import partial
